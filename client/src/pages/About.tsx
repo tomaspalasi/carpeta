@@ -1,8 +1,8 @@
 import { Link } from "wouter";
-import foto1 from "../imgs/about/1.jpeg";
-import foto2 from "../imgs/about/2.jpeg";
-import foto3 from "../imgs/about/3.jpeg";
-import gif from "../imgs/about/4.gif";
+import foto1 from "./../../public/imgs/about/1.jpeg";
+import foto2 from "./../../public/imgs/about/2.jpeg";
+import foto3 from "./../../public/imgs/about/3.jpeg";
+import gif from "./../../public/imgs/about/4.gif";
 
 export default function About() {
   // Array con las URLs de tus 4 fotos
