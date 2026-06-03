@@ -29,7 +29,7 @@ export const PORTFOLIO_WORKS = [
     title: "Vereda Adentro",
     year: 2026,
     category: "Redacción / Creatividad",
-    description: "El objetivo era comunicar el cierre por mudanza de un pequeño, pero icónico, wine bar de Nuñez hacia un espacio más grande en Coghlan. Para evitar caer en el típico cartel genérico de “NOS MUDAMOS” o un simple agradecimiento plano, la idea fue dejar que los clientes escriban esta despedida. Diseñamos un afiche tipográfico donde el titular es un collage de reseñas reales de Google. Mediante el uso de mayúsculas resaltadas, las opinionje forman una frase oculta que define a la esencia del lugar: “Lugarazo con alma que le dio vida a la esquina. Es el Lugar”. Para cerrar realizamos un ejercicio de copywriting que transforma la nostalgia del cierre en el puente perfecto hacia el proximo capítulo.",
+    description: "El objetivo era comunicar el cierre por mudanza de un pequeño, pero icónico, wine bar de Núñez hacia un espacio más grande en Coghlan. Para evitar caer en el típico cartel genérico de “NOS MUDAMOS” o un simple agradecimiento plano, la idea fue dejar que los clientes escriban esta despedida. Diseñamos un afiche tipográfico donde el titular es un collage de reseñas reales de Google. Mediante el uso de mayúsculas resaltadas, las opiniones forman una frase oculta que define a la esencia del lugar: “Lugarazo con alma que le dio vida a la esquina. Es el Lugar”. Para cerrar realizamos un ejercicio de copywriting que transforma la nostalgia del cierre en el puente perfecto hacia el próximo capítulo.",
     subDescription: "Dupla: Camila Namesny Blois - Tomás Julián Palasi",
     image: "https://i.imgur.com/Ds93cio.jpeg",
     board: "https://i.imgur.com/annyy7p.jpeg",
