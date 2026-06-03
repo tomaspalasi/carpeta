@@ -1,13 +1,20 @@
 import { Link } from "wouter";
-import foto1 from "./../../public/imgs/about/1.jpeg";
-import foto2 from "./../../public/imgs/about/2.jpeg";
-import foto3 from "./../../public/imgs/about/3.jpeg";
-import gif from "./../../public/imgs/about/4.gif";
+// import foto1 from "./../../public/imgs/about/1.jpeg";
+// import foto2 from "./../../public/imgs/about/2.jpeg";
+// import foto3 from "./../../public/imgs/about/3.jpeg";
+// import gif from "./../../public/imgs/about/4.gif";
 
 export default function About() {
   // Array con las URLs de tus 4 fotos
+  // const photos = [
+  //   foto1, foto2, foto3, gif, 
+  // ];
+
   const photos = [
-    foto1, foto2, foto3, gif,
+    "https://lh3.googleusercontent.com/d/1WeUhNhU77exZYZspU-yu9WfBLoSx3L6B=w500",
+    "https://lh3.googleusercontent.com/d/1YggqlwrQC7xqd6jyU_coEUYYJlQXOWvs=w500",
+    "https://lh3.googleusercontent.com/d/18SJpr5uRL38g2bauJ_kUnUS1m6uxU3bZ=w500",
+    "https://lh3.googleusercontent.com/d/1hDP5brVzJEZzakffgXjmKXE2ri-mJiJ6=w500",
   ];
 
   return (
