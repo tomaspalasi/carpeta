@@ -11,9 +11,8 @@ export default function About() {
   // ];
 
   const photos = [
-    "https://i.imgur.com/ViA9r5i.jpeg",
     "https://i.imgur.com/YLZLA1i.jpeg",
-    "https://i.imgur.com/7fsiozs.jpeg",
+    "https://i.imgur.com/HZ5eHON.jpeg",
     "https://i.imgur.com/YfxuKp5.gif",
   ];
 
