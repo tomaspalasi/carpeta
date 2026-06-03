@@ -12,7 +12,7 @@ export default function About() {
 
   const photos = [
     "https://i.imgur.com/YLZLA1i.jpeg",
-    "https://i.imgur.com/HZ5eHON.jpeg",
+    "https://i.imgur.com/qxvJtvb.jpeg",
     "https://i.imgur.com/YfxuKp5.gif",
   ];
 
