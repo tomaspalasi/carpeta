@@ -12,11 +12,11 @@ import WorkDetail from "./pages/WorkDetail";
 function Router() {
   return (
     <Switch>
-      <Route path={"/carpeta"} component={Home} />
+      <Route path={"/"} component={Home} />
       <Route path={"/about"} component={About} />
       <Route path={"/contact"} component={Contact} />
       <Route path={"/work/:id"} component={WorkDetail} />
-      <Route path={"/404"} component={NotFound} />
+      {/* <Route path={"/404"} component={NotFound} /> */}
       {/* Final fallback route */}
       <Route component={NotFound} />
     </Switch>
