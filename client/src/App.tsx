@@ -39,7 +39,12 @@
 // export default App;
 
 function App() {
-  return <h1>FUNCIONA</h1>;
+  return (
+    <>
+      <h1>Test</h1>
+      <pre>{window.location.pathname}</pre>
+    </>
+  );
 }
 
 export default App;
