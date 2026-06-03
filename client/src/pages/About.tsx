@@ -11,10 +11,10 @@ export default function About() {
   // ];
 
   const photos = [
-    "https://lh3.googleusercontent.com/d/1WeUhNhU77exZYZspU-yu9WfBLoSx3L6B=w500",
-    "https://lh3.googleusercontent.com/d/1YggqlwrQC7xqd6jyU_coEUYYJlQXOWvs=w500",
-    "https://lh3.googleusercontent.com/d/18SJpr5uRL38g2bauJ_kUnUS1m6uxU3bZ=w500",
-    "https://lh3.googleusercontent.com/d/1hDP5brVzJEZzakffgXjmKXE2ri-mJiJ6=w500",
+    "https://i.imgur.com/ViA9r5i.jpeg",
+    "https://i.imgur.com/YLZLA1i.jpeg",
+    "https://i.imgur.com/7fsiozs.jpeg",
+    "https://i.imgur.com/YfxuKp5.gif",
   ];
 
   return (
