@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Redirect</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
     <script>
-      // Redirige todos los 404 al index.html para que Wouter maneje el routing
-      sessionStorage.redirect = location.href;
+      // Redirect to index.html for client-side routing
+      var path = window.location.pathname;
+      if (path !== '/portfolio/' && path !== '/portfolio/index.html') {
+        sessionStorage.redirect = path;
+        window.location.href = '/portfolio/';
+      }
     </script>
-    <meta http-equiv="refresh" content="0;url=/" />
   </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/portfolio/src/main.tsx"></script>
+  </body>
 </html>
