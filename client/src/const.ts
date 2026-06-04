@@ -17,6 +17,7 @@ export const PORTFOLIO_WORKS = [
     title: "Franco Colapinto Road Show",
     year: 2026,
     category: "Diseño / Creatividad",
+    
     description: "El desafío fue desarrollar una campaña de vía pública para Heineken sobre la Av. del Libertador, en el marco del road show de Franco Colapinto en Buenos Aires. El objetivo era claro: instalar el mensaje de consumo responsable en un contexto de pura adrenalina y velocidad. Apostamos por un diseño conceptual, logrando una pieza donde el icónico número “43” revela la silueta de la botella en la morfología del 4. El impacto visual se potenció con un titular breve que juega con el doble sentido de la icónica estrella de la marca: “Una estrella en el auto. Una estrella en la lata”. Un proyecto donde el branding y el contexto jugaron en equipo para lograr un impacto inmediato.",
     subDescription: "Dupla: Juan Ignacio Cersosimo - Tomás Julián Palasi",
     image: "https://i.imgur.com/kwKcJNS.png",
@@ -44,7 +45,7 @@ export const PORTFOLIO_WORKS = [
     description: "El brief consistía bajar una idea absurda a un caso real. El resultado fue Zafé, el primer “Seguro Social” que protege el activo más frágil de la era moderna: tu dignidad. Una marca nacida del humor pero ejecutada con rigor estratégico. El naming cruza el inglés “Safe” con el alivio del argentinismo “Zafé”. El logo remata con una “S” invertida que se lee como “Z” y una tilde conceptualizada como un suspiro de alivio. Nació como un chiste, quedó como una identidad con un insight imbatible.",
     subDescription: "Dupla: Luna Saliva Morillo - Tomás Julián Palasi",
     image: "https://i.imgur.com/Pbrnjgx.png",
-    board: "https://i.imgur.com/QEZ7eTz.jpeg",
+    board: "https://i.imgur.com/w5mZFaS.png",
     board2: null,
     link: "/work/4",
   },
