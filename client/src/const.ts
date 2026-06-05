@@ -10,7 +10,7 @@ export const PORTFOLIO_WORKS = [
     image: "https://i.imgur.com/iC0Y083.jpeg",
     board: "https://i.imgur.com/ACHXxIY.png",
     board2: null,
-    link: "/work/Quilmes-Botellon-00",
+    link: "/work/1",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ export const PORTFOLIO_WORKS = [
     image: "https://i.imgur.com/kwKcJNS.png",
     board: "https://i.imgur.com/5IKyrdR.png",
     board2: "https://i.imgur.com/CtF7qtx.jpeg",
-    link: "/work/Colapinto-Road-Show",
+    link: "/work/2",
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ export const PORTFOLIO_WORKS = [
     image: "https://i.imgur.com/Ds93cio.jpeg",
     board: "https://i.imgur.com/annyy7p.jpeg",
     board2: null,
-    link: "/work/Vereda-Adentro",
+    link: "/work/3",
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ export const PORTFOLIO_WORKS = [
     image: "https://i.imgur.com/Pbrnjgx.png",
     board: "https://i.imgur.com/w5mZFaS.png",
     board2: null,
-    link: "/work/Zafe",
+    link: "/work/4",
   },  {
     id: 5,
     title: "Amarokit",
@@ -58,6 +58,6 @@ export const PORTFOLIO_WORKS = [
     image: "https://i.imgur.com/baJnOYv.jpeg",
     board: "https://i.imgur.com/EvBlZRY.jpeg",
     board2: null,
-    link: "/work/Amarokit",
+    link: "/work/5",
   },
 ];
