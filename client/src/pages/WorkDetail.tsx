@@ -12,8 +12,11 @@ import { useEffect } from "react";
 
 export default function WorkDetail() {
   const params = useParams();
-  const workId = parseInt(params.id || "1");
-  const work = PORTFOLIO_WORKS.find((w) => w.id === workId);
+  const slug = params.slug;
+
+  const work = PORTFOLIO_WORKS.find(
+    (w) => w.slug === slug
+  );
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -21,7 +24,7 @@ export default function WorkDetail() {
 
   useEffect(() => {
     scrollToTop();
-  }, [workId]);
+  }, [slug]);
 
   if (!work) {
     return (
@@ -36,8 +39,18 @@ export default function WorkDetail() {
     );
   }
 
-  const nextWork = PORTFOLIO_WORKS[(workId % PORTFOLIO_WORKS.length)];
-  const prevWork = PORTFOLIO_WORKS[(workId - 2 + PORTFOLIO_WORKS.length) % PORTFOLIO_WORKS.length];
+  const currentIndex = PORTFOLIO_WORKS.findIndex(
+    (w) => w.slug === slug
+  );
+  
+  const nextWork =
+    PORTFOLIO_WORKS[(currentIndex + 1) % PORTFOLIO_WORKS.length];
+  
+  const prevWork =
+    PORTFOLIO_WORKS[
+      (currentIndex - 1 + PORTFOLIO_WORKS.length) %
+        PORTFOLIO_WORKS.length
+    ];
 
   return (
     <div className="min-h-screen bg-white text-black">
