@@ -10,7 +10,7 @@ export const PORTFOLIO_WORKS = [
     image: "https://i.imgur.com/iC0Y083.jpeg",
     board: "https://i.imgur.com/ACHXxIY.png",
     board2: null,
-    link: "/work/1",
+    link: "/work/Quilmes-Botellon-00",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ export const PORTFOLIO_WORKS = [
     image: "https://i.imgur.com/kwKcJNS.png",
     board: "https://i.imgur.com/5IKyrdR.png",
     board2: "https://i.imgur.com/CtF7qtx.jpeg",
-    link: "/work/2",
+    link: "/work/Colapinto-Road-Show",
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ export const PORTFOLIO_WORKS = [
     image: "https://i.imgur.com/Ds93cio.jpeg",
     board: "https://i.imgur.com/annyy7p.jpeg",
     board2: null,
-    link: "/work/3",
+    link: "/work/Vereda-Adentro",
   },
   {
     id: 4,
@@ -47,6 +47,17 @@ export const PORTFOLIO_WORKS = [
     image: "https://i.imgur.com/Pbrnjgx.png",
     board: "https://i.imgur.com/w5mZFaS.png",
     board2: null,
-    link: "/work/4",
+    link: "/work/Zafe",
+  },  {
+    id: 5,
+    title: "Amarokit",
+    year: 2026,
+    category: "Diseño / Creatividad",
+    description: "Bajo el concepto de “Amaroki” (esa especie urbana que conduce una camioneta enorme y considera la vereda una extensión natural del estacionamiento) desarrollamos la primera rampa modular plegable para vehículos comunes. Ahora cualquier conductor puede satisfacer la necesidad estética de estacionar sobre la vereda sin la inversión que implica comprar una pickup de gran porte. En pocas palabras: podés ser un Amaroki sin tener una Amarok. No creamos una necesidad. No cambiamos hábitos. No educamos conductores. Simplemente identificamos un comportamiento cultural profundamente arraigado y encontramos la manera de monetizarlo.",
+    subDescription: "Dupla: Camila Namesny Blois - Tomás Julián Palasi",
+    image: "https://i.imgur.com/baJnOYv.jpeg",
+    board: "https://i.imgur.com/EvBlZRY.jpeg",
+    board2: null,
+    link: "/work/Amarokit",
   },
 ];
