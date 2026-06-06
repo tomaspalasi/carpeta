@@ -47,7 +47,7 @@ export const PORTFOLIO_WORKS = [
     description: "Bajo el concepto de “Amaroki” (esa especie urbana que conduce una camioneta enorme y considera la vereda una extensión natural del estacionamiento) desarrollamos la primera rampa modular plegable para vehículos comunes. Ahora cualquier conductor puede satisfacer la necesidad estética de estacionar sobre la vereda sin la inversión que implica comprar una pickup de gran porte. En pocas palabras: podés ser un Amaroki sin tener una Amarok. No creamos una necesidad. No cambiamos hábitos. No educamos conductores. Simplemente identificamos un comportamiento cultural profundamente arraigado y encontramos la manera de monetizarlo.",
     subDescription: "Dupla: Camila Namesny Blois - Tomás Julián Palasi",
     image: "https://i.imgur.com/baJnOYv.jpeg",
-    board: "https://i.imgur.com/EvBlZRY.jpeg",
+    board: "https://i.imgur.com/RTJnLLb.jpeg",
     board2: null,
     link: "/work/amarokit",
     slug: "amarokit",
