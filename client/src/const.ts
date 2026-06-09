@@ -8,7 +8,7 @@ export const PORTFOLIO_WORKS = [
     description: "La consigna fue diseñar una activación y un nuevo producto para Quilmes en el marco de los premios Martín Fierro. Para salir del clásico patrocinio de marca y generar un impacto real en la cultura popular, creamos el “Botellón Quilmes 0.0”, un premio especial entregado a la categoría de Mejor Labor de Conducción. La idea nació de reinterpretar el festejo con champagne de la Fórmula 1, pero cruzándolo con un insight bien argentino: un juego de palabras entre la conducción televisiva y la conducción al volante. De este doble sentido nació el trofeo ideal: una cerveza sin alcohol para el mejor “conductor”. Así, a través del humor popular, logramos instalar el producto y promover el consumo responsable en el evento más visto del país.",
     subDescription: "Grupo: Juan Ignacio Cersosimo - Ignacio Maffia - Tomás Julián Palasi",
     image: "https://i.imgur.com/VEKltLS.png",
-    board: "https://i.imgur.com/bTPWJXJ.jpeg",
+    board: "https://i.imgur.com/BIb3Pkc.jpeg",
     board2: null,
     link: "/work/quilmes-botellon-0-0",
     slug: "quilmes-botellon-0-0",
