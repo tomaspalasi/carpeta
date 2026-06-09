@@ -1,13 +1,6 @@
 import { Link } from "wouter";
 import { Linkedin } from "lucide-react";
 
-/**
- * Design Philosophy: Creative Portfolio - Inspired by Marga Peces
- * - Light/white background
- * - Clean typography
- * - Minimalist layout
- */
-
 export default function About() {
   return (
     <div className="min-h-screen bg-white text-black">
@@ -41,16 +34,15 @@ export default function About() {
 
       {/* Contact Section */}
       <section className="container py-16 border-t-2 border-black">
-        <div className="max-w-2xl">
-          <h2 className="text-3xl font-bold mb-8"></h2>
+
           <div className="space-y-4">
             <p>
-              <a href="mailto:tomi.palasi@gmail.comm" className="hover:opacity-70 transition-opacity text-5xl md:text-2xl font-bold mb-12 leading-tight">
+              <a href="mailto:tomi.palasi@gmail.comm" className="hover:opacity-70 transition-opacity text-5xl md:text-2xl font-bold mb-12 leading-tight" style={{ fontSize: "20px" }}>
                 tomi.palasi@gmail.com
               </a>
             </p>
           </div>
-        </div>
+
       </section>
         </div>
         <div>
