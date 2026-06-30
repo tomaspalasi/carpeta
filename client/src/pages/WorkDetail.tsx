@@ -53,6 +53,18 @@ export default function WorkDetail() {
       (currentIndex - 1 + PORTFOLIO_WORKS.length) %
         PORTFOLIO_WORKS.length
     ];
+    const getYoutubeEmbedUrl = (url: string) => {
+      if (!url) return "";
+    
+      const regExp =
+        /(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&]+)/;
+    
+      const match = url.match(regExp);
+    
+      return match
+        ? `https://www.youtube.com/embed/${match[1]}`
+        : "";
+    };
 
   return (
     <div className="min-h-screen bg-white text-black">
@@ -110,17 +122,32 @@ export default function WorkDetail() {
   </Zoom>
 </div>
 
-          {/* Segunda imagen - Solo si existe */}
-          {work.board2 && (
-  <div className="w-full rounded-lg overflow-hidden bg-gray-100">
-    <Zoom>
-      <img
-        src={work.board2}
-        alt={work.title}
-        className="w-full h-auto object-contain cursor-zoom-in transition-all duration-300 hover:opacity-95"
+{/* Segunda imagen o Video */}
+{work.youtube ? (
+  <div className="w-full rounded-lg overflow-hidden bg-black">
+    <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+      <iframe
+        className="absolute top-0 left-0 w-full h-full"
+        src={getYoutubeEmbedUrl(work.youtube)}
+        title={work.title}
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
       />
-    </Zoom>
+    </div>
   </div>
+) : (
+  work.board2 && (
+    <div className="w-full rounded-lg overflow-hidden bg-gray-100">
+      <Zoom>
+        <img
+          src={work.board2}
+          alt={work.title}
+          className="w-full h-auto object-contain cursor-zoom-in transition-all duration-300 hover:opacity-95"
+        />
+      </Zoom>
+    </div>
+  )
 )}
 
           {/* Description */}
