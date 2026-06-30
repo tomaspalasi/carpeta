@@ -69,7 +69,7 @@ export const PORTFOLIO_WORKS = [
     title: "The Slot Binder",
     year: 2026,
     category: "Acción / Creatividad",
-    description: "Tras marcar su gol número 18 en los Mundiales con la Selección Argentina de Futbol, Lio armó lio una vez más. Rompió un nuevo récord y se convirtió en el máximo goleador de la historia de los Mundiales. Por eso decidí armar un Real Time, homenajeandolo a mi manera, con mis vivencias, mis emociones y mis recuerdos. Aunque sé que muchas de esas historias no son solo mías, sino también de muchas personas que crecimos viéndolo jugar. Porque cada uno tendrá su propia anécdota, pero todos compartimos los mismos gritos, los mismos abrazos y las mismas alegrías.",
+    description: "The Slot Binder es un sistema organizador de prendas desarrollado para resolver uno de los problemas más frecuentes en el orden del placard: el efecto dominó que se produce al retirar una prenda y desacomodar todas las demás. El proyecto propone una solución basada en un sistema modular de láminas de acetato rígido y flexible, donde cada prenda ocupa un espacio independiente, permitiendo extraerla sin alterar el resto de la ropa. El diseño se enfocó en mejorar la experiencia de uso mediante una estructura simple, funcional y adaptable a distintos volúmenes de prendas. Gracias a las propiedades del acetato, el organizador combina estabilidad y flexibilidad, facilitando el acceso a la ropa y reduciendo el tiempo dedicado a mantener el orden del placard.",
     subDescription: "Autor: Camila Namesny Blois - Tomás Julián Palasi",
     image: "https://i.imgur.com/rUJcMMI.jpeg",
     board: "https://i.imgur.com/Hx9BBc8.jpeg",
