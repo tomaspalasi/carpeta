@@ -2,6 +2,8 @@ import { Link, useParams } from "wouter";
 import { ChevronLeft } from "lucide-react";
 import { PORTFOLIO_WORKS } from "@/const";
 import { useEffect } from "react";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 /**
  * Design Philosophy: Creative Portfolio - Inspired by Marga Peces
@@ -98,24 +100,28 @@ export default function WorkDetail() {
           </div>
 
             {/* Image */}
-          <div className="w-full rounded-lg overflow-hidden bg-gray-100">
-            <img
-              src={work.board}
-              alt={work.title}
-              className="w-full h-auto object-contain"
-            />
-          </div>
+            <div className="w-full rounded-lg overflow-hidden bg-gray-100">
+  <Zoom>
+    <img
+      src={work.board}
+      alt={work.title}
+      className="w-full h-auto object-contain cursor-zoom-in transition-all duration-300 hover:opacity-95"
+    />
+  </Zoom>
+</div>
 
           {/* Segunda imagen - Solo si existe */}
           {work.board2 && (
-            <div className="w-full rounded-lg overflow-hidden bg-gray-100">
-              <img
-                src={work.board2}
-                alt={work.title}
-                className="w-full h-auto object-contain"
-              />
-            </div>
-          )}
+  <div className="w-full rounded-lg overflow-hidden bg-gray-100">
+    <Zoom>
+      <img
+        src={work.board2}
+        alt={work.title}
+        className="w-full h-auto object-contain cursor-zoom-in transition-all duration-300 hover:opacity-95"
+      />
+    </Zoom>
+  </div>
+)}
 
           {/* Description */}
           <div className="max-w-full">
