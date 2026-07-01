@@ -20,7 +20,7 @@ export const PORTFOLIO_WORKS = [
     year: 2026,
     category: "Diseño / Creatividad",
     description: "La propuesta consistió en desarrollar una pieza gráfica publicitaria para Caladryl, centrada en una situación cotidiana: la aparición de una picadura inesperada sin saber qué insecto la provocó. A partir de esa incertidumbre, se construyó el concepto creativo tomando como referencia el término O.V.N.I. (Objeto Volador No Identificado) y adaptándolo al universo de los insectos y las picaduras, dando origen a la idea de P.V.N.I. (Picador Volador No Identificado). El objetivo fue generar una comunicación con un tono creativo y humorístico, transformando una experiencia común en un concepto memorable que refuerza la necesidad de contar con Caladryl para aliviar las molestias ocasionadas por cualquier picadura, independientemente de su origen.",
-    subDescription: "Dupla: Juan Ignacio Cersosimo - Daniel Pedraza - Camila Namesny Blois - Tomás Julián Palasi",
+    subDescription: "Dupla: Juan Ignacio Cersosimo - Daniel Pedraza - Francisco Rodriguez - Tomás Julián Palasi",
     image: "https://i.imgur.com/e4D8bda.png",
     board: "https://i.imgur.com/Z5LMAz0.jpeg",
     link: "/work/pvni",
