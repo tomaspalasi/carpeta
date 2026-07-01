@@ -173,7 +173,7 @@ export default function WorkDetail() {
             <div className="group cursor-pointer">
               <p className="text-sm text-gray-600 mb-4">Proyecto Anterior</p>
               <div className="space-y-4">
-                <div className="relative overflow-hidden rounded-lg aspect-square bg-gray-100">
+              <div className="relative overflow-hidden rounded-lg aspect-[3/2] bg-gray-100">
                   <img
                     src={prevWork.image}
                     alt={prevWork.title}
@@ -192,7 +192,7 @@ export default function WorkDetail() {
             <div className="group cursor-pointer">
               <p className="text-sm text-gray-600 mb-4">Siguiente Proyecto</p>
               <div className="space-y-4">
-                <div className="relative overflow-hidden rounded-lg aspect-square bg-gray-100">
+              <div className="relative overflow-hidden rounded-lg aspect-[3/2] bg-gray-100">
                   <img
                     src={nextWork.image}
                     alt={nextWork.title}
