@@ -111,16 +111,18 @@ export default function WorkDetail() {
             </div>
           </div>
 
-            {/* Image */}
-            <div className="w-full rounded-lg overflow-hidden bg-gray-100">
-  <Zoom>
-    <img
-      src={work.board}
-      alt={work.title}
-      className="w-full h-auto object-contain cursor-zoom-in transition-all duration-300 hover:opacity-95"
-    />
-  </Zoom>
-</div>
+{/* Imagen principal */}
+{work.board && (
+  <div className="w-full rounded-lg overflow-hidden bg-gray-100">
+    <Zoom>
+      <img
+        src={work.board}
+        alt={work.title}
+        className="w-full h-auto object-contain cursor-zoom-in transition-all duration-300 hover:opacity-95"
+      />
+    </Zoom>
+  </div>
+)}
 
 {/* Segunda imagen o Video */}
 {work.youtube ? (

@@ -38,7 +38,12 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 auto-rows-max">
           {PORTFOLIO_WORKS.map((work, index) => {
             // Varying heights for masonic effect
-            const heights = ["h-100", "h-100", "h-100", "h-100"];
+            const heights = [
+              "aspect-[3/2] md:h-[400px]",
+              "aspect-[3/2] md:h-[400px]",
+              "aspect-[3/2] md:h-[400px]",
+              "aspect-[3/2] md:h-[400px]",
+            ];
             const colSpans = ["md:col-span-1", "md:col-span-2", "md:col-span-1", "md:col-span-2"];
             
             return (
