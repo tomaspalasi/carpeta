@@ -118,4 +118,17 @@ export const PORTFOLIO_WORKS = [
     link: "/work/franco-colapinto-road-show",
     slug: "franco-colapinto-road-show",
   },
+  {
+    id: 10,
+    title: "Bayer Alivio Clásico",
+    year: 2026,
+    category: "Diseño / Creatividad",
+    description: "La propuesta parte de una situación tan habitual como poco atendida: después de noventa minutos alentando sin parar, miles de hinchas salen del estadio con la garganta resentida. A partir de ese insight, la campaña transforma a Actron en un aliado inesperado del ritual futbolero mediante un puesto ubicado a la salida del BayArena, donde se entregan analgésicos para aliviar el malestar. La pieza combina un titular simple y memorable, “Alivio Clásico para tu Garganta”, con una puesta en escena que integra el branding de la marca al contexto del Bayer Leverkusen, demostrando cómo un momento cotidiano de los fanáticos puede convertirse en una oportunidad de comunicación relevante, útil y con alto impacto.",
+    subDescription: "Dupla: Juan Ignacio Cersosimo - Tomás Julián Palasi",
+    image: "https://i.imgur.com/AiULVMN.png",
+    board: "https://i.imgur.com/AoGE7GI.jpeg",
+    board2: null,
+    link: "/work/bayer-alivio-clasico",
+    slug: "bayer-alivio-clasico",
+  },
 ];
