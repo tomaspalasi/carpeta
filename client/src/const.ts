@@ -2,20 +2,6 @@
 export const PORTFOLIO_WORKS = [
   {
     id: 1,
-    title: "Día del Padre",
-    year: 2026,
-    category: "Redacción / Manifiesto / Creatividad",
-    description: "La propuesta fue realizar un manifiesto para el día del padre, sliendo de la típica comunicación, donde los regalos son siempre los protagonistas. El video recorre un living lleno de obsequios clásicos, como ropa, haciendo creer que la historia gira alrededor de ellos. Pero en el final, una fotografía cambia por completo el sentido de la pieza y demuestra que el mejor regalo no es algo que se compra, sino un recuerdo compartido. Bajo el concepto “Volvé a vivir los momentos que más importan”, se busca mostrar que el verdadero valor de Nikon está en capturar esos instantes que, con el paso del tiempo, se transforman en recuerdos para volver a vivir una y otra vez.",
-    subDescription: "Autor: Tomás Julián Palasi",
-    image: "https://i.imgur.com/8lt1N1s.png",
-    board: null,
-    board2: null,
-    youtube: "https://www.youtube.com/watch?v=4CM-_bg4-7s",
-    link: "/work/día-del-padre",
-    slug: "día-del-padre",
-  },
-  {
-    id: 2,
     title: "P.V.N.I.",
     year: 2026,
     category: "Diseño / Creatividad",
@@ -27,7 +13,7 @@ export const PORTFOLIO_WORKS = [
     slug: "pvni",
   },
   {
-    id: 3,
+    id: 2,
     title: "Vereda Adentro",
     year: 2026,
     category: "Redacción / Manifiesto",
@@ -41,7 +27,7 @@ export const PORTFOLIO_WORKS = [
     slug: "vereda-adentro",
   },
   {
-    id: 4,
+    id: 3,
     title: "Jornadan't",
     year: 2026,
     category: "Diseño / Creatividad",
@@ -54,7 +40,7 @@ export const PORTFOLIO_WORKS = [
     slug: "jornadant-patagonia",
   },
   {
-    id: 5,
+    id: 4,
     title: "Quilmes Botellón 0.0",
     year: 2026,
     category: "Diseño / Acción / Creatividad",
@@ -65,6 +51,19 @@ export const PORTFOLIO_WORKS = [
     board2: null,
     link: "/work/quilmes-botellon-0-0",
     slug: "quilmes-botellon-0-0",
+  },  {
+    id: 5,
+    title: "Día del Padre",
+    year: 2026,
+    category: "Redacción / Manifiesto / Creatividad",
+    description: "La propuesta fue realizar un manifiesto para el día del padre, sliendo de la típica comunicación, donde los regalos son siempre los protagonistas. El video recorre un living lleno de obsequios clásicos, como ropa, haciendo creer que la historia gira alrededor de ellos. Pero en el final, una fotografía cambia por completo el sentido de la pieza y demuestra que el mejor regalo no es algo que se compra, sino un recuerdo compartido. Bajo el concepto “Volvé a vivir los momentos que más importan”, se busca mostrar que el verdadero valor de Nikon está en capturar esos instantes que, con el paso del tiempo, se transforman en recuerdos para volver a vivir una y otra vez.",
+    subDescription: "Autor: Tomás Julián Palasi",
+    image: "https://i.imgur.com/8lt1N1s.png",
+    board: null,
+    board2: null,
+    youtube: "https://www.youtube.com/watch?v=4CM-_bg4-7s",
+    link: "/work/día-del-padre",
+    slug: "día-del-padre",
   },
   {
     id: 6,
