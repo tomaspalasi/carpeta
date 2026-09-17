@@ -24,7 +24,7 @@ export default function Home() {
             fetchPriority="high"
           />
         </div>
-        <div className="hero-intro" style="margin-top: 350px;">
+        <div className="hero-intro">
           <p>
             Soy Tomi Palasi.
             <br />
