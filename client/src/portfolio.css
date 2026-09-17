@@ -725,9 +725,8 @@ body {
   }
   .hero-signature {
     right: 5%;
-    bottom: 88px;
-    font-size: 27px;
-    -webkit-text-stroke: 1px #f4f3ef;
+    bottom: 300px;
+    font-size: 20px;
   }
   .hero-bottom {
     bottom: 18px;
