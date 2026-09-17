@@ -25,9 +25,6 @@ export default function Home() {
           />
         </div>
         <div className="hero-intro">
-          <span className="small-star" aria-hidden="true">
-            ✳
-          </span>
           <p>
             Soy Tomi Palasi.
             <br />
@@ -35,7 +32,7 @@ export default function Home() {
             <br />A veces, unas cuantas.
           </p>
           <Link href="/about" className="text-link">
-            Conocé al de la cabeza ↗
+            Conocé al de la cabeza
           </Link>
         </div>
         <Link href="/work" className="round-cta">
@@ -44,7 +41,6 @@ export default function Home() {
             <br />
             TRABAJOS
           </span>
-          <span aria-hidden="true">↗</span>
         </Link>
         <div className="hero-signature">Tomi Palasi</div>
         <div className="hero-bottom">
@@ -53,7 +49,7 @@ export default function Home() {
             <br />Y LA CABEZA EN CUALQUIER LADO.
           </span>
           <Globo className="hero-globo" />
-          <span>DESLIZÁ PARA CONOCERME ↓</span>
+          <span>DESLIZÁ PARA CONOCERME</span>
         </div>
       </section>
       <div className="checker" aria-hidden="true" />
@@ -69,7 +65,7 @@ export default function Home() {
           para encontrar una idea que todavía no estaba ahí.
         </p>
         <Link href="/work" className="pill-link">
-          Pasá a ver lo que salió <span>↗</span>
+          Pasá a ver lo que salió
         </Link>
         <div className="manifesto-note">
           <Globo />

@@ -78,7 +78,7 @@ export function SiteFooter() {
         <span>Una cabeza. Muchas ideas.</span>
         <span>© {new Date().getFullYear()} · Tomás Julián Palasi</span>
       </div>
-      <Link href="/contact">¿Hacemos algo? ↗</Link>
+      <Link href="/contact">¿Hacemos algo?</Link>
     </footer>
   );
 }

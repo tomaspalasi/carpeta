@@ -26,9 +26,6 @@ export default function Works() {
           <br />
           palabra y alguna que otra locura.
         </p>
-        <span className="works-spark" aria-hidden="true">
-          ✳
-        </span>
       </section>
       <div className="work-toolbar">
         <div className="work-filters" aria-label="Filtrar trabajos">
@@ -68,7 +65,7 @@ export default function Works() {
                 <div className="poster-fallback">
                   <span>{String(work.id).padStart(2, "0")}</span>
                   <strong>{work.title}</strong>
-                  <small>Vista previa no disponible · Ver proyecto ↗</small>
+                  <small>Vista previa no disponible · Ver proyecto</small>
                 </div>
               ) : (
                 <img
@@ -80,9 +77,6 @@ export default function Works() {
                   }
                 />
               )}
-              <span className="poster-open" aria-hidden="true">
-                ↗
-              </span>
             </div>
             <div className="poster-caption">
               <h2>{work.title}</h2>
@@ -93,7 +87,7 @@ export default function Works() {
       </section>
       <section className="work-end">
         <span>¿LA PRÓXIMA IDEA?</span>
-        <Link href="/contact">La podemos pensar juntos. ↗</Link>
+        <Link href="/contact">La podemos pensar juntos.</Link>
       </section>
     </SiteLayout>
   );

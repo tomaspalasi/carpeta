@@ -11,14 +11,14 @@ export default function Contact() {
         </h1>
         <div className="contact-links">
           <a href="mailto:tomi.palasi@gmail.com">
-            tomi.palasi@gmail.com <span>↗</span>
+            tomi.palasi@gmail.com
           </a>
           <a
             href="https://www.linkedin.com/in/tom%C3%A1s-juli%C3%A1n-palasi-44810b251/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            LinkedIn <span>↗</span>
+            LinkedIn
           </a>
         </div>
         <Globo className="contact-globo" />

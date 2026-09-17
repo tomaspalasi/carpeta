@@ -183,13 +183,6 @@ body {
   font-size: 12px;
   line-height: 1.8;
 }
-.small-star {
-  font-size: 44px;
-  color: var(--red);
-  line-height: 1;
-  display: block;
-  margin-bottom: 10px;
-}
 .text-link {
   display: inline-block;
   margin-top: 15px;
@@ -222,9 +215,6 @@ body {
   font-size: 27px;
   line-height: 0.95;
   font-weight: 700;
-}
-.round-cta span:last-child {
-  font-size: 32px;
 }
 .round-cta:hover {
   transform: rotate(0deg) translateY(-5px);
@@ -311,9 +301,6 @@ body {
 .pill-link:hover {
   transform: translateY(-4px);
 }
-.pill-link span {
-  font-size: 20px;
-}
 .manifesto-note {
   position: absolute;
   bottom: 40px;
@@ -381,14 +368,6 @@ body {
   bottom: 60px;
   font-size: 13px;
   line-height: 1.8;
-}
-.works-spark {
-  position: absolute;
-  right: 13%;
-  top: 35px;
-  font-size: 130px;
-  color: var(--red);
-  transform: rotate(15deg);
 }
 .work-toolbar {
   border-top: 1px solid #bbb;
@@ -489,24 +468,6 @@ body {
 }
 .work-poster:hover img {
   transform: scale(1.035);
-}
-.poster-open {
-  position: absolute;
-  bottom: 15px;
-  right: 15px;
-  background: var(--red);
-  color: white;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  font-size: 26px;
-  transform: rotate(-40deg);
-  transition: transform 0.3s;
-}
-.work-poster:hover .poster-open {
-  transform: rotate(0);
 }
 .poster-caption {
   padding: 20px 5px 10px;
@@ -692,11 +653,6 @@ body {
   .works-heading p {
     position: static;
   }
-  .works-spark {
-    font-size: 90px;
-    right: 8%;
-    top: 100px;
-  }
   .contact-globo {
     right: 4%;
     width: 170px;
@@ -753,9 +709,6 @@ body {
     max-width: 140px;
     font-size: 10px;
   }
-  .small-star {
-    font-size: 33px;
-  }
   .text-link {
     font-size: 9px;
     max-width: 110px;
@@ -769,9 +722,6 @@ body {
   }
   .round-cta span:first-child {
     font-size: 22px;
-  }
-  .round-cta span:last-child {
-    font-size: 25px;
   }
   .hero-signature {
     right: 5%;
@@ -850,12 +800,6 @@ body {
   }
   .works-heading p {
     font-size: 11px;
-  }
-  .works-spark {
-    right: 6%;
-    top: auto;
-    bottom: 25px;
-    font-size: 55px;
   }
   .work-toolbar {
     margin: 0 6%;
@@ -942,10 +886,6 @@ body {
 .round-cta span:first-child {
   font-size: 24px;
 }
-.round-cta span:last-child {
-  font-size: 24px;
-  line-height: 1;
-}
 .poster-fallback {
   height: 100%;
   width: 100%;
@@ -967,14 +907,10 @@ body {
 }
 .poster-fallback small {
   font-size: 8px;
-  padding-right: 45px;
 }
 @media (max-width: 600px) {
   .round-cta span:first-child {
     font-size: 20px;
-  }
-  .round-cta span:last-child {
-    font-size: 18px;
   }
   .round-cta {
     gap: 5px;

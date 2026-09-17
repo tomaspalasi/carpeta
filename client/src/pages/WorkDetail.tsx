@@ -1,6 +1,5 @@
 import { SiteHeader, SiteFooter } from "@/components/SiteLayout";
 import { Link, useParams } from "wouter";
-import { ChevronLeft } from "lucide-react";
 import { PORTFOLIO_WORKS } from "@/const";
 import { useEffect } from "react";
 import Zoom from "react-medium-image-zoom";
@@ -71,7 +70,6 @@ export default function WorkDetail() {
             href="/work"
             className="inline-flex items-center gap-2 text-gray-600 hover:text-black transition-colors"
           >
-            <ChevronLeft className="w-4 h-4" />
             Volver a trabajos
           </Link>
         </div>
