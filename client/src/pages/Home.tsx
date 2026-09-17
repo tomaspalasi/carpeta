@@ -14,8 +14,6 @@ export default function Home() {
           SALEN DE MI
           <br />
           <span>CABEZA.</span>
-          <br />
-          <br />
         </h1>
         <div className="hero-art">
           <img
@@ -27,6 +25,8 @@ export default function Home() {
           />
         </div>
         <div className="hero-intro">
+          <br />
+          <br />
           <p>
             Soy Tomi Palasi.
             <br />
