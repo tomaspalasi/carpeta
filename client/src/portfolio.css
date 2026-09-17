@@ -727,7 +727,7 @@ body {
     right: 5%;
     bottom: 88px;
     font-size: 27px;
-    color: #252525;
+    -webkit-text-stroke: 1px #f4f3ef;
   }
   .hero-bottom {
     bottom: 18px;
