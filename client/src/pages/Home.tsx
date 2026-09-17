@@ -14,6 +14,8 @@ export default function Home() {
           SALEN DE MI
           <br />
           <span>CABEZA.</span>
+          <br />
+          <br />
         </h1>
         <div className="hero-art">
           <img
