@@ -23,7 +23,7 @@ export default function About() {
 
               <p>
                 Esquelense de nacimiento. La vida me fue llevando por diferentes
-                partes del mapa como Trelew (Chubut ), Mar del Plata (Buenos
+                partes del mapa como Trelew (Chubut), Mar del Plata (Buenos
                 Aires), 25 de Mayo (Buenos Aires) y finalmente, hoy tiro ideas
                 desde Parque Chacabuco (Capital Federal).
               </p>
