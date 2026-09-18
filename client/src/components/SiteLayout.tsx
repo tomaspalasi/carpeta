@@ -72,7 +72,7 @@ export function SiteFooter() {
   return (
     <footer className="site-footer">
       <Link href="/" className="footer-name">
-        TOMÁS PALASI<span>®</span>
+        TOMÁS JULIÁN PALASI<span>®</span>
       </Link>
       <div>
         <span>Una cabeza. Muchas ideas.</span>
