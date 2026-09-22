@@ -1,0 +1,84 @@
+.project-gallery {
+  width: 100%;
+  min-width: 0;
+}
+.project-gallery-stage {
+  background: #ececea;
+  border-radius: 8px;
+  overflow: hidden;
+  touch-action: pan-y pinch-zoom;
+}
+.project-gallery-stage [data-rmiz] {
+  display: block;
+  width: 100%;
+}
+.project-gallery-stage [data-rmiz-content] {
+  width: 100%;
+}
+.project-gallery-image {
+  display: block;
+  width: 100%;
+  height: clamp(280px, 70vh, 780px);
+  object-fit: contain;
+  cursor: zoom-in;
+}
+.project-gallery-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px 0 0;
+}
+.project-gallery-controls > button {
+  border: 1px solid #c9c8c5;
+  border-radius: 24px;
+  padding: 10px 20px;
+  font-size: 12px;
+  background: transparent;
+  color: inherit;
+}
+.project-gallery-controls > button:hover {
+  background: var(--red, #e32629);
+  border-color: var(--red, #e32629);
+  color: white;
+}
+.project-gallery-position {
+  text-align: center;
+  font-size: 12px;
+}
+.project-gallery-dots {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.project-gallery-dots button {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border: 0;
+  background: transparent;
+}
+.project-gallery-dots button span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #999;
+}
+.project-gallery-dots button[aria-current] span {
+  background: var(--red, #e32629);
+  transform: scale(1.3);
+}
+.project-gallery :focus-visible {
+  outline: 3px solid var(--red, #e32629);
+  outline-offset: 3px;
+}
+@media (max-width: 600px) {
+  .project-gallery-image {
+    height: clamp(280px, 58svh, 520px);
+  }
+  .project-gallery-controls > button {
+    padding: 10px 12px;
+    font-size: 11px;
+  }
+}

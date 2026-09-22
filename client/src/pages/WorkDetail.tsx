@@ -7,8 +7,7 @@ import { SiteHeader, SiteFooter } from "@/components/SiteLayout";
 import { Link, useParams } from "wouter";
 import { PORTFOLIO_WORKS } from "@/const";
 import { useEffect } from "react";
-import Zoom from "react-medium-image-zoom";
-import "react-medium-image-zoom/dist/styles.css";
+import ProjectGallery from "@/components/ProjectGallery";
 
 /**
  * Design Philosophy: Creative Portfolio - Inspired by Marga Peces
@@ -95,21 +94,24 @@ export default function WorkDetail() {
               </div>
             </div>
 
-            {/* Imagen principal */}
-            {work.board && (
-              <div className="w-full rounded-lg overflow-hidden bg-gray-100">
-                <Zoom>
-                  <img
-                    src={work.board}
-                    alt={work.title}
-                    className="w-full h-auto object-contain cursor-zoom-in transition-all duration-300 hover:opacity-95"
-                  />
-                </Zoom>
-              </div>
-            )}
+            <ProjectGallery
+              key={work.slug}
+              title={work.title}
+              images={Object.entries(work)
+                .filter(
+                  ([key, value]) =>
+                    /^board\d*$/.test(key) &&
+                    typeof value === "string" &&
+                    value.trim().length > 0
+                )
+                .sort(
+                  ([a], [b]) =>
+                    Number(a.slice(5) || 1) - Number(b.slice(5) || 1)
+                )
+                .map(([, value]) => value as string)}
+            />
 
-            {/* Segunda imagen o Video */}
-            {work.youtube ? (
+            {work.youtube && (
               <div className="w-full rounded-lg overflow-hidden bg-black">
                 <div
                   className="relative w-full"
@@ -119,24 +121,11 @@ export default function WorkDetail() {
                     className="absolute top-0 left-0 w-full h-full"
                     src={getYoutubeEmbedUrl(work.youtube)}
                     title={work.title}
-                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen
                   />
                 </div>
               </div>
-            ) : (
-              work.board2 && (
-                <div className="w-full rounded-lg overflow-hidden bg-gray-100">
-                  <Zoom>
-                    <img
-                      src={work.board2}
-                      alt={work.title}
-                      className="w-full h-auto object-contain cursor-zoom-in transition-all duration-300 hover:opacity-95"
-                    />
-                  </Zoom>
-                </div>
-              )
             )}
 
             {/* Description */}
