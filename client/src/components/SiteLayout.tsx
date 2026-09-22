@@ -1,3 +1,5 @@
+import { PORTFOLIO_WORKS } from "@/const";
+import { WORK_SECTIONS, getWorkSection } from "@/lib/workSections";
 import { Link, useLocation } from "wouter";
 import { useEffect, type ReactNode } from "react";
 
@@ -27,9 +29,15 @@ export function SiteHeader() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);
+  const currentWork = PORTFOLIO_WORKS.find(w => w.link === location);
+  const activePath = currentWork
+    ? WORK_SECTIONS[getWorkSection(currentWork.id)].path
+    : location;
   const links = [
     ["/", "Inicio"],
     ["/work", "Trabajos"],
+    ["/real-times", "Real Times"],
+    ["/ideas", "Baúl de ideas"],
     ["/about", "Sobre mí"],
     ["/contact", "Contacto"],
   ];
@@ -46,15 +54,7 @@ export function SiteHeader() {
           <Link
             key={href}
             href={href}
-            aria-current={
-              (
-                href === "/work"
-                  ? location.startsWith("/work")
-                  : location === href
-              )
-                ? "page"
-                : undefined
-            }
+            aria-current={activePath === href ? "page" : undefined}
           >
             {label}
           </Link>

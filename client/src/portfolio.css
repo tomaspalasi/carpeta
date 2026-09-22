@@ -919,3 +919,47 @@ body {
     font-size: 42px;
   }
 }
+
+/* Keep all six sections readable on smaller screens. */
+.works-heading p {
+  max-width: 270px;
+}
+@media (min-width: 1001px) and (max-width: 1200px) {
+  .site-header nav {
+    gap: 22px;
+  }
+  .header-note {
+    display: none;
+  }
+}
+@media (min-width: 601px) and (max-width: 800px) {
+  .site-header nav {
+    gap: 18px;
+  }
+  .site-header nav a {
+    font-size: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .site-header {
+    height: auto;
+    min-height: 128px;
+    padding: 16px 0 12px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .site-header nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px 14px;
+  }
+  .site-header nav a {
+    font-size: 11px;
+    padding: 9px 0;
+    text-align: center;
+  }
+  .works-heading p {
+    max-width: 260px;
+  }
+}

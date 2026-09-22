@@ -1,3 +1,8 @@
+import {
+  WORK_SECTIONS,
+  getWorkSection,
+  getSectionWorks,
+} from "@/lib/workSections";
 import { SiteHeader, SiteFooter } from "@/components/SiteLayout";
 import { Link, useParams } from "wouter";
 import { PORTFOLIO_WORKS } from "@/const";
@@ -42,13 +47,14 @@ export default function WorkDetail() {
     );
   }
 
-  const currentIndex = PORTFOLIO_WORKS.findIndex(w => w.slug === slug);
-
-  const nextWork = PORTFOLIO_WORKS[(currentIndex + 1) % PORTFOLIO_WORKS.length];
-
+  const section = getWorkSection(work.id);
+  const sectionConfig = WORK_SECTIONS[section];
+  const sectionWorks = getSectionWorks(section);
+  const currentIndex = sectionWorks.findIndex(w => w.id === work.id);
+  const nextWork = sectionWorks[(currentIndex + 1) % sectionWorks.length];
   const prevWork =
-    PORTFOLIO_WORKS[
-      (currentIndex - 1 + PORTFOLIO_WORKS.length) % PORTFOLIO_WORKS.length
+    sectionWorks[
+      (currentIndex - 1 + sectionWorks.length) % sectionWorks.length
     ];
   const getYoutubeEmbedUrl = (url: string) => {
     if (!url) return "";
@@ -67,10 +73,10 @@ export default function WorkDetail() {
         {/* Back Button */}
         <div className="container py-8">
           <Link
-            href="/work"
+            href={sectionConfig.path}
             className="inline-flex items-center gap-2 text-gray-600 hover:text-black transition-colors"
           >
-            Volver a trabajos
+            Volver a {sectionConfig.label}
           </Link>
         </div>
 

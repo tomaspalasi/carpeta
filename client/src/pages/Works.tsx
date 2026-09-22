@@ -1,35 +1,40 @@
 import { useState, type CSSProperties } from "react";
 import { Link } from "wouter";
-import { PORTFOLIO_WORKS } from "@/const";
+import {
+  WORK_SECTIONS,
+  getSectionWorks,
+  type WorkSection,
+} from "@/lib/workSections";
 import SiteLayout from "@/components/SiteLayout";
 const filters = ["Todos", "Diseño", "Redacción", "Acción"];
-export default function Works() {
+function Works({ section = "work" }: { section?: WorkSection }) {
+  const config = WORK_SECTIONS[section];
+  const sectionWorks = getSectionWorks(section);
+  const sectionFilters = filters.filter(
+    f => f === "Todos" || sectionWorks.some(w => w.category.includes(f))
+  );
   const [failedImages, setFailedImages] = useState<Set<number>>(new Set());
   const [filter, setFilter] = useState("Todos");
-  const works = PORTFOLIO_WORKS.filter(
+  const works = sectionWorks.filter(
     w => filter === "Todos" || w.category.includes(filter)
   );
   return (
     <SiteLayout className="works-page">
       <section className="works-heading">
         <span className="eyebrow">
-          EL ARCHIVO CREATIVO /{" "}
-          {String(PORTFOLIO_WORKS.length).padStart(2, "0")} PROYECTOS
+          {config.eyebrow} / {String(sectionWorks.length).padStart(2, "0")}{" "}
+          PROYECTOS
         </span>
         <h1>
-          FUERA DE
+          {config.title}
           <br />
-          <span>MI CABEZA.</span>
+          <span>{config.subtitle}</span>
         </h1>
-        <p>
-          Ideas que se hicieron imagen,
-          <br />
-          palabra y alguna que otra locura.
-        </p>
+        <p>{config.description}</p>
       </section>
       <div className="work-toolbar">
         <div className="work-filters" aria-label="Filtrar trabajos">
-          {filters.map(f => (
+          {sectionFilters.map(f => (
             <button
               key={f}
               aria-pressed={filter === f}
@@ -91,4 +96,15 @@ export default function Works() {
       </section>
     </SiteLayout>
   );
+}
+
+export function Ideas() {
+  return <Works key="ideas" section="ideas" />;
+}
+export function RealTimes() {
+  return <Works key="real-times" section="realTimes" />;
+}
+
+export default function SelectedWorks() {
+  return <Works key="work" section="work" />;
 }
