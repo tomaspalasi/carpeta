@@ -101,7 +101,7 @@ export const PORTFOLIO_WORKS = [
     image: "https://i.imgur.com/YDwXP3R.png",
     board: "https://i.imgur.com/DOVqIR7.png",
     board2: null,
-    youtube: "https://youtu.be/6bWec20MNsA",
+    youtube: null,
     link: "/work/modular",
     slug: "modular",
   }, 
