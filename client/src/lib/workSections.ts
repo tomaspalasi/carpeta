@@ -31,7 +31,7 @@ export const WORK_SECTIONS = {
 } as const;
 export type WorkSection = keyof typeof WORK_SECTIONS;
 export function getWorkSection(id: number): WorkSection {
-  if ([10, 11].includes(id)) return "ideas";
+  if ([3, 10, 11].includes(id)) return "ideas";
   if ([2, 5, 6, 9].includes(id)) return "realTimes";
   return "work";
 }
