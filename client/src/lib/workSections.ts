@@ -22,7 +22,7 @@ export const WORK_SECTIONS = {
 } as const;
 export type WorkSection = keyof typeof WORK_SECTIONS;
 export function getWorkSection(id: number): WorkSection {
-  if ([4, 6, 7, 9, 10, 11].includes(id)) return "ideas";
+  if ([6, 7, 8, 9, 10, 11].includes(id)) return "ideas";
   return "work";
 }
 export function getSectionWorks(section: WorkSection) {
