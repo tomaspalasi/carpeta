@@ -159,9 +159,9 @@ body {
 }
 .hero-art {
   position: absolute;
-  height: 92%;
-  width: 52%;
-  left: 37%;
+  height: 100%;
+  width: 100%;
+  left: 0%;
   bottom: 0;
   z-index: 2;
   pointer-events: none;
