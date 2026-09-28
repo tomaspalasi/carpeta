@@ -995,8 +995,9 @@ body {
 }
 .contour-band {
   flex: 0 0 clamp(44px, 9vh, 88px);
-  background: var(--red) url("/images/franja-web.svg") repeat-x center;
-  background-size: 500px 100px;
+  background-color: red;
+  mask: url("/images/franja-web.svg") repeat-x center;
+  background-size: 400px 100px;
 }
 
 /* Restore the original hero composition within the available screen height. */
