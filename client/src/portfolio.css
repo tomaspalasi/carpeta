@@ -995,7 +995,7 @@ body {
 }
 .contour-band {
   flex: 0 0 clamp(44px, 9vh, 88px);
-  background: var(--red) url("/images/japanese-waves.svg") repeat-x center;
+  background: var(--red) url("/images/franja-web.svg") repeat-x center;
   background-size: 160px 80px;
 }
 
