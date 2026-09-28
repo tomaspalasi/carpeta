@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
         <div className="hero-art">
           <img
-            src={`${import.meta.env.BASE_URL}images/tomas-sculpture.webp`}
+            src={`${import.meta.env.BASE_URL}images/busto.png`}
             alt="Retrato escultórico de Tomás con gorro, antiparras y la lengua afuera, sostenido por una mano roja"
             width="1024"
             height="1536"
