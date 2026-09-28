@@ -6,7 +6,7 @@ export default function Home() {
       <section className="hero" aria-labelledby="hero-title">
         <div className="hero-eyebrow">
           <span>CARPETA CREATIVA — VOL. 01</span>
-          <span>REDACCIÓN + DISEÑO + IDEAS</span>
+          <span>REDACCIÓN DISEÑO IDEAS</span>
         </div>
         <h1 id="hero-title">
           IDEAS QUE
