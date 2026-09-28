@@ -687,7 +687,7 @@ body {
     letter-spacing: 0.8px;
   }
   .hero-eyebrow span:last-child {
-    max-width: 110px;
+    max-width: 50px;
     text-align: right;
   }
   .hero h1 {
