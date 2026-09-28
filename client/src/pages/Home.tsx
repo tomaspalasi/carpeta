@@ -48,7 +48,6 @@ export default function Home() {
             CON LOS PIES EN LA TIERRA.
             <br />Y LA CABEZA EN CUALQUIER LADO.
           </span>
-          <Globo className="hero-globo" />
           <span>BUENOS AIRES, ARGENTINA</span>
         </div>
       </section>
