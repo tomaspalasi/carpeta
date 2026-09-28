@@ -2,7 +2,7 @@ import { Link } from "wouter";
 import SiteLayout, { Globo } from "@/components/SiteLayout";
 export default function Home() {
   return (
-    <SiteLayout className="home-page" showFooter={false}>
+    <SiteLayout className="home-page">
       <section className="hero" aria-labelledby="hero-title">
         <div className="hero-eyebrow">
           <span>CARPETA CREATIVA — VOL. 01</span>

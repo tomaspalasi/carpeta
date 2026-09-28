@@ -995,8 +995,8 @@ body {
 }
 .contour-band {
   flex: 0 0 clamp(44px, 9vh, 88px);
-  background: var(--red) url("/images/contour-pattern.svg") repeat-x center;
-  background-size: auto 160px;
+  background: var(--red) url("/images/japanese-waves.svg") repeat-x center;
+  background-size: 160px 80px;
 }
 
 /* Restore the original hero composition within the available screen height. */
@@ -1075,4 +1075,21 @@ body {
   .home-page .hero-signature { bottom: 137px; font-size: 18px; }
   .home-page .round-cta { width: 64px; height: 64px; }
   .home-page .round-cta span:first-child { font-size: 15px; }
+}
+
+/* The shared footer stays visible beneath the Japanese wave band. */
+.home-page .site-footer {
+  flex: 0 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.home-page .contour-band { flex-basis: clamp(32px, 6vh, 56px); }
+@media (max-width: 600px) {
+  .home-page .site-footer { padding: 12px 5%; gap: 8px 16px; }
+  .home-page .footer-name { font-size: 22px; }
+  .home-page .site-footer div { flex-direction: row; justify-content: space-between; gap: 8px; font-size: 7px; }
+  .home-page .hero-signature { bottom: 190px; }
+}
+@media (max-width: 600px) and (max-height: 650px) {
+  .home-page .hero-signature { bottom: 120px; font-size: 16px; }
 }
