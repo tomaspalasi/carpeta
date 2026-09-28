@@ -1156,10 +1156,11 @@ body {
   .site-header .header-note { display: none; }
   .site-footer .hero-globo { display: block; width: 24px; height: 32px; margin: 0; flex-shrink: 0; }
   .home-page .hero-art {
-    top: -21%;
+    top: -20%;
     left: 16%;
-    width: 70%;
+    width: 60%;
     height: 66%;
+    position: absolute;
   }
   .home-page .hero-art img { object-position: right bottom; }
   .home-page .hero h1 { font-size: min(17vw, 12cqh); width: 100%; top: 30%;}
