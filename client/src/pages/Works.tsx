@@ -43,11 +43,11 @@ function Works({ section = "work" }: { section?: WorkSection }) {
               {f}
             </button>
           ))}
-        </div> */}
+        </div> 
         <span aria-live="polite">
           {String(works.length).padStart(2, "0")} trabajos
         </span>
-      </div>
+      </div>*/}
       <section className="poster-wall" aria-label="Proyectos">
         {works.map((work, index) => (
           <Link
