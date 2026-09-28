@@ -884,7 +884,7 @@ body {
   text-align: center;
 }
 .round-cta span:first-child {
-  font-size: 24px;
+  font-size: 15px;
 }
 .poster-fallback {
   height: 100%;
@@ -996,7 +996,7 @@ body {
 .contour-band {
   flex: 0 0 clamp(44px, 9vh, 88px);
   background: var(--red) url("/images/franja-web.svg") repeat-x center;
-  background-size: 160px 80px;
+  background-size: 500px 100px;
 }
 
 /* Restore the original hero composition within the available screen height. */
@@ -1095,7 +1095,7 @@ body {
 }
 
 /* Red wave linework blends into the paper instead of forming a solid block. */
-.home-page .contour-band {
+/* .home-page .contour-band {
   background-color: var(--paper);
   position: relative;
 }
@@ -1105,7 +1105,7 @@ body {
   inset: 0;
   pointer-events: none;
   background: linear-gradient(to bottom, var(--paper), transparent 50%, transparent 85%, var(--paper));
-}
+}*/
 .home-page .site-footer { border-top: 0; }
 .home-page .hero h1 { font-size: min(10.7vw, 18cqh); }
 @media (max-width: 600px) and (orientation: portrait) {
