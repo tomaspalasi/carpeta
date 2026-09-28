@@ -1156,9 +1156,8 @@ body {
   .site-header .header-note { display: none; }
   .site-footer .hero-globo { display: block; width: 24px; height: 32px; margin: 0; flex-shrink: 0; }
   .home-page .hero-art {
-    position: fixed;
     top: -21%;
-    left: 20%;
+    left: 16%;
     width: 70%;
     height: 66%;
   }
