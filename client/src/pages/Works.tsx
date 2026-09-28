@@ -32,7 +32,8 @@ function Works({ section = "work" }: { section?: WorkSection }) {
         </h1>
         <p>{config.description}</p>
       </section>
-      <div className="work-toolbar">
+      // filtro de works
+      /* <div className="work-toolbar">
         <div className="work-filters" aria-label="Filtrar trabajos">
           {sectionFilters.map(f => (
             <button
@@ -43,7 +44,7 @@ function Works({ section = "work" }: { section?: WorkSection }) {
               {f}
             </button>
           ))}
-        </div>
+        </div> */
         <span aria-live="polite">
           {String(works.length).padStart(2, "0")} trabajos
         </span>
