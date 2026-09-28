@@ -158,11 +158,12 @@ body {
   -webkit-text-stroke: 2px var(--red);
 }
 .hero-art {
-  position: absolute;
+  position: fixed;
   height: 100%;
   width: 100%;
-  left: 0%;
+  left: 40%;
   bottom: 0;
+  top: 0;
   z-index: 2;
   pointer-events: none;
   transform-origin: bottom;
