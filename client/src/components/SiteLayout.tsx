@@ -1,7 +1,7 @@
 import { PORTFOLIO_WORKS } from "@/const";
 import { WORK_SECTIONS, getWorkSection } from "@/lib/workSections";
 import { Link, useLocation } from "wouter";
-import { useEffect, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 
 export function Globo({ className = "" }: { className?: string }) {
   return (
@@ -26,7 +26,29 @@ export function Globo({ className = "" }: { className?: string }) {
 }
 export function SiteHeader() {
   const [location] = useLocation();
+  const [menuOpen, setMenuOpen] = useState(false);
+  const headerRef = useRef<HTMLElement>(null);
+  const toggleRef = useRef<HTMLButtonElement>(null);
   useEffect(() => {
+    if (!menuOpen) return;
+    const closeOutside = (event: PointerEvent) => {
+      if (!headerRef.current?.contains(event.target as Node)) setMenuOpen(false);
+    };
+    const closeEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setMenuOpen(false);
+        toggleRef.current?.focus();
+      }
+    };
+    document.addEventListener("pointerdown", closeOutside);
+    document.addEventListener("keydown", closeEscape);
+    return () => {
+      document.removeEventListener("pointerdown", closeOutside);
+      document.removeEventListener("keydown", closeEscape);
+    };
+  }, [menuOpen]);
+  useEffect(() => {
+    setMenuOpen(false);
     window.scrollTo(0, 0);
   }, [location]);
   const currentWork = PORTFOLIO_WORKS.find(w => w.link === location);
@@ -41,18 +63,30 @@ export function SiteHeader() {
     ["/contact", "Contacto"],
   ];
   return (
-    <header className="site-header">
+    <header className="site-header" ref={headerRef}>
       <a href="#main" className="skip-link">
         Saltar al contenido
       </a>
       <Link href="/" className="brand" aria-label="Tomás Palasi — inicio">
         TP<span className="brand-dot">®</span>
       </Link>
-      <nav aria-label="Navegación principal">
+      <button
+        ref={toggleRef}
+        className="menu-toggle"
+        type="button"
+        aria-expanded={menuOpen}
+        aria-controls="site-navigation"
+        onClick={() => setMenuOpen(open => !open)}
+      >
+        {menuOpen ? "Cerrar" : "Menú"}
+        <span className="menu-icon" aria-hidden="true"><i /><i /><i /></span>
+      </button>
+      <nav id="site-navigation" data-open={menuOpen} aria-label="Navegación principal">
         {links.map(([href, label]) => (
           <Link
             key={href}
             href={href}
+            onClick={() => setMenuOpen(false)}
             aria-current={activePath === href ? "page" : undefined}
           >
             {label}
