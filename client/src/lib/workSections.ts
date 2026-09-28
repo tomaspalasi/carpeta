@@ -19,20 +19,10 @@ export const WORK_SECTIONS = {
     description:
       "Experimentos, ocurrencias y otras ideas que merecen salir a jugar.",
   },
-  realTimes: {
-    label: "Real Times",
-    path: "/real-times",
-    eyebrow: "IDEAS EN EL MOMENTO JUSTO",
-    title: "REAL",
-    subtitle: "TIMES.",
-    description:
-      "Fechas, momentos y conversaciones que se convierten en ideas.",
-  },
 } as const;
 export type WorkSection = keyof typeof WORK_SECTIONS;
 export function getWorkSection(id: number): WorkSection {
-  if ([3, 10, 11].includes(id)) return "ideas";
-  if ([2, 5, 6, 9].includes(id)) return "realTimes";
+  if ([2, 3, 5, 6, 9, 10, 11].includes(id)) return "ideas";
   return "work";
 }
 export function getSectionWorks(section: WorkSection) {

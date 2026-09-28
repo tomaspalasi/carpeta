@@ -101,9 +101,6 @@ function Works({ section = "work" }: { section?: WorkSection }) {
 export function Ideas() {
   return <Works key="ideas" section="ideas" />;
 }
-export function RealTimes() {
-  return <Works key="real-times" section="realTimes" />;
-}
 
 export default function SelectedWorks() {
   return <Works key="work" section="work" />;

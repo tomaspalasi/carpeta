@@ -963,3 +963,38 @@ body {
     max-width: 260px;
   }
 }
+
+/* One-screen, image-only home. The other pages retain their normal scroll. */
+.home-page {
+  height: 100svh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+.home-page .site-header { flex: 0 0 auto; }
+.home-page main {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+.home-sculpture {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  justify-content: center;
+  background: radial-gradient(ellipse at center, #fff, #e6e5e2 45%, var(--paper) 78%);
+}
+.home-sculpture img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  filter: drop-shadow(12px 14px 16px #24242412);
+}
+.contour-band {
+  flex: 0 0 clamp(44px, 9vh, 88px);
+  background: var(--red) url("/images/contour-pattern.svg") repeat-x center;
+  background-size: auto 160px;
+}

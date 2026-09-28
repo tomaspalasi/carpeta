@@ -36,7 +36,6 @@ export function SiteHeader() {
   const links = [
     ["/", "Inicio"],
     ["/work", "Trabajos"],
-    ["/real-times", "Real Times"],
     ["/ideas", "Baúl de ideas"],
     ["/about", "Sobre mí"],
     ["/contact", "Contacto"],
@@ -85,15 +84,17 @@ export function SiteFooter() {
 export default function SiteLayout({
   children,
   className = "",
+  showFooter = true,
 }: {
   children: ReactNode;
   className?: string;
+  showFooter?: boolean;
 }) {
   return (
     <div className={`portfolio ${className}`}>
       <SiteHeader />
       <main id="main">{children}</main>
-      <SiteFooter />
+      {showFooter && <SiteFooter />}
     </div>
   );
 }
