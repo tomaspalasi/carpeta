@@ -8,7 +8,7 @@ export const PORTFOLIO_WORKS = [
     description: "MODÜLAR es un sistema organizador de prendas desarrollado para resolver uno de los problemas más frecuentes en el orden del placard: el efecto dominó que se produce al retirar una prenda y desacomodar todas las demás. El proyecto propone una solución basada en un sistema modular de láminas de acetato rígido y flexible, donde cada prenda ocupa un espacio independiente, permitiendo extraerla sin alterar el resto de la ropa. El diseño se enfocó en mejorar la experiencia de uso mediante una estructura simple, funcional y adaptable a distintos volúmenes de prendas. Gracias a las propiedades del acetato, el organizador combina estabilidad y flexibilidad, facilitando el acceso a la ropa y reduciendo el tiempo dedicado a mantener el orden del placard.",
     subDescription: "Dupla: Francisco Rodriguez - Tomás Julián Palasi",
     image: "https://i.imgur.com/YDwXP3R.png",
-    board: "https://i.imgur.com/DOVqIR7.png",
+    board: "https://i.imgur.com/jebcD6v.jpeg",
     board2: null,
     youtube: null,
     link: "/work/modular",
