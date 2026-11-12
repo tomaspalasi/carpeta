@@ -28,7 +28,7 @@ function Works({ section = "work" }: { section?: WorkSection }) {
         <h1>
           {config.title}
           <br />
-          <span>{config.subtitle}</span>
+          <span>{config.subtitle}</span><span className="puntoFinal">.</span>
         </h1>
         <p>{config.description}</p>
       </section>

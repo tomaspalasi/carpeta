@@ -6,7 +6,7 @@ export const WORK_SECTIONS = {
     path: "/work",
     eyebrow: "TRABAJOS SELECCIONADOS",
     title: "FUERA DE",
-    subtitle: "DOS CABEZAS.",
+    subtitle: "DOS CABEZAS",
     description:
       "Ideas que se hicieron imagen, palabra y alguna que otra locura.",
   },
@@ -15,7 +15,7 @@ export const WORK_SECTIONS = {
     path: "/ideas",
     eyebrow: "IDEAS LIBRES",
     title: "BAÚL DE",
-    subtitle: "IDEAS.",
+    subtitle: "IDEAS",
     description:
       "Experimentos, ocurrencias y otras ideas que merecen salir a jugar.",
   },

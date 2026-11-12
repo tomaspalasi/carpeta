@@ -329,9 +329,12 @@ body {
   letter-spacing: -1px;
   color: var(--red);
 }
-.footer-name span {
-  font-size: 15px;
-  vertical-align: top;
+.signomas {
+  color: var(--yellow);
+}
+
+.franname {
+  color: var(--blue);
 }
 .site-footer div {
   display: flex;
@@ -359,7 +362,12 @@ body {
   margin: 30px 0;
 }
 .works-heading h1 span {
-  -webkit-text-stroke: 2px var(--red);
+  -webkit-text-stroke: 2px var(--blue);
+  color: transparent;
+}
+
+.works-heading h1 .puntoFinal {
+  -webkit-text-stroke: 2px var(--yellow);
   color: transparent;
 }
 .works-heading p {
@@ -503,11 +511,46 @@ body {
 .about-page h1,
 .detail-page h1 {
   font-family: var(--display);
-  color: var(--red);
   font-weight: 800;
   font-size: clamp(48px, 7vw, 96px);
   line-height: 0.95;
 }
+
+.detail-workTitles h1 {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: clamp(48px, 7vw, 96px);
+  line-height: 0.7;
+}
+
+.primero{
+  -webkit-text-stroke: 2px var(--blue);
+  color: transparent;
+}
+
+.segundo{
+  -webkit-text-stroke: 2px var(--yellow);
+  color: transparent;
+}
+
+.titlework{
+  color: var(--red);
+}
+
+.subtitlework{
+  -webkit-text-stroke: 2px var(--blue);
+  color: transparent;
+}
+
+.finaltitlework{
+  -webkit-text-stroke: 2px var(--yellow);
+  color: transparent;
+}
+
+.titulosworks{
+  line-height: 10;
+}
+
 .about-page .space-y-8 {
   max-width: 850px;
   font-size: 16px;
@@ -558,10 +601,17 @@ body {
   margin: 40px 0 60px;
   position: relative;
   z-index: 1;
+  line-height: 0.95;
 }
 .contact-content h1 em {
   font-style: normal;
-  -webkit-text-stroke: 2px var(--red);
+  -webkit-text-stroke: 2px var(--blue);
+  color: transparent;
+}
+
+.contact-content h1 .signo{
+  font-style: normal;
+  -webkit-text-stroke: 2px var(--yellow);
   color: transparent;
 }
 .contact-links {
@@ -582,6 +632,9 @@ body {
 }
 .contact-links a:hover {
   color: var(--red);
+}
+.clfran a:hover {
+  color: var(--blue);
 }
 .contact-content p {
   font-size: 11px;
@@ -1189,6 +1242,7 @@ body {
 .home-page .hero-art-fran { left: 20%; width: 37%; }
 .home-page .hero h1 { z-index: 4; font-size: min(7vw, 12cqh); width: 100%; }
 .home-page .hero h1 span { -webkit-text-stroke-color: var(--blue); }
+.home-page .hero .dos { -webkit-text-stroke-color: var(--yellow); }
 .round-cta { background: var(--blue); color: var(--yellow); box-shadow: 5px 7px 0 var(--yellow); }
 .contour-band { background: linear-gradient(90deg,var(--red) 0 34%,var(--yellow) 34% 66%,var(--blue) 66%); }
 .work-end { background: var(--blue); }
@@ -1197,6 +1251,7 @@ body {
 .duo-contacts { display: grid; grid-template-columns: 1fr 1fr; gap: 45px; position: relative; z-index: 1; }
 .contact-links { min-width: 0; }
 .contact-links a { font-size: clamp(13px,1.5vw,21px); overflow-wrap: anywhere; }
+.contact-links h2,.duo-person-title-tomi { font: 700 32px var(--display); color: var(--red); }
 .contact-links h2,.duo-person-title { font: 700 32px var(--display); color: var(--blue); }
 .contact-links:first-child h2 { color: var(--red); }
 .contact-globo { opacity: .12; }

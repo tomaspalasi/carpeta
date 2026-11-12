@@ -66,7 +66,7 @@ export default function WorkDetail() {
   };
 
   return (
-    <div className="portfolio detail-page">
+    <div className="portfolio detail-workTitles">
       <SiteHeader />
       <main id="main">
         {/* Back Button */}
@@ -84,8 +84,11 @@ export default function WorkDetail() {
           <div className="space-y-12">
             {/* Title and Meta */}
             <div className="max-w-3xl">
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+              <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight titlework">
                 {work.title}
+              </h1>
+              <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight subtitlework">
+                {work.subtitle}<span className="finaltitlework">{work.finaltitle}</span>
               </h1>
               <div className="flex items-center gap-6 text-gray-600">
                 <span>{work.year}</span>

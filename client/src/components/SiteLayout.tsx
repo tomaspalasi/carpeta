@@ -110,7 +110,7 @@ export function SiteFooter() {
   return (
     <footer className="site-footer">
       <Link href="/" className="footer-name">
-        TOMI PALASI + FRAN RODRIGUEZ<span>®</span>
+        TOMI PALASI<span className="signomas"> + </span><span className="franname">FRAN RODRIGUEZ</span>
       </Link>
       <div>
         <span>Dos cabezas. Muchas ideas.</span>

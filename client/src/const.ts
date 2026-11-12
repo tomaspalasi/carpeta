@@ -2,7 +2,9 @@
 export const PORTFOLIO_WORKS = [
         {
     id: 1,
-    title: "EN ALGÚN LUGAR DE IBEROAMÉRICA",
+    title: "EN ALGÚN LUGAR DE",
+    subtitle: " IBEROAMÉRICA",
+    finaltitle: ".",
     year: 2026,
     category: "Creatividad",
     description: "En Algún Lugar de Iberoamérica es una idea desarrollada para celebrar los 30 años del Festival El Ojo de Iberoamérica, que busca reconocer los espacios cotidianos donde nacen las grandes ideas. La propuesta parte de una observación: celebramos las ideas cuando reciben un premio, pero pocas veces conocemos el lugar donde surgieron. A partir de esto, convocamos a creativos ganadores del festival para que compartieran fotografías y testimonios de los espacios donde se les ocurrieron sus ideas premiadas. Con este material, desarrollamos una serie de piezas gráficas que retratan esos escenarios, desde una oficina o una cama hasta una ducha o un inodoro. El proyecto busca demostrar que la creatividad puede surgir en cualquier lugar, incluso en los más inesperados, e inspirar a las nuevas generaciones de creativos.",
@@ -44,7 +46,9 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id:4,
-    title: "COMO EN CASA, ESTÉS DONDE ESTÉS",
+    title: "COMO EN CASA,",
+    subtitle: "ESTÉS DONDE ESTÉS",
+    finaltitle: ".",
     year: 2026,
     category: "Acción / Creatividad",
     description: "Como en casa, estés donde estés es un film desarrollado para Airbnb que, a través del humor, busca transmitir la comodidad y familiaridad de sentirse en casa, incluso cuando estamos de viaje. La propuesta parte de una situación cotidiana con la que todos podemos identificarnos: ir al baño y sentir que no hay lugar más cómodo que el de nuestra propia casa. A partir de esta observación, el film juega con el contraste entre estar en un lugar desconocido y disfrutar de la confianza y privacidad del hogar. De manera simple y humorística, buscamos destacar uno de los principales atributos de Airbnb: la posibilidad de sentirte como en casa, estés donde estés.",
@@ -85,7 +89,9 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id: 7,
-    title: "DÍA DEL PADRE",
+    title: "DÍA",
+    subtitle: "DEL PADRE",
+    finaltitle: ".",
     year: 2026,
     category: "Redacción / Manifiesto / Creatividad",
     description: "La propuesta fue realizar un manifiesto para el día del padre, sliendo de la típica comunicación, donde los regalos son siempre los protagonistas. El video recorre un living lleno de obsequios clásicos, como ropa, haciendo creer que la historia gira alrededor de ellos. Pero en el final, una fotografía cambia por completo el sentido de la pieza y demuestra que el mejor regalo no es algo que se compra, sino un recuerdo compartido. Bajo el concepto “Volvé a vivir los momentos que más importan”, se busca mostrar que el verdadero valor de Nikon está en capturar esos instantes que, con el paso del tiempo, se transforman en recuerdos para volver a vivir una y otra vez.",
@@ -99,7 +105,9 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id: 8,
-    title: "VEREDA ADENTRO",
+    title: "VEREDA",
+    subtitle: "ADENTRO",
+    finaltitle: ".",
     year: 2026,
     category: "Redacción / Manifiesto",
     description: "El objetivo era comunicar el cierre por mudanza de un pequeño, pero icónico, wine bar de Núñez hacia un espacio más grande en Coghlan. Para evitar caer en el típico cartel genérico de “NOS MUDAMOS” o un simple agradecimiento plano, la idea fue dejar que los clientes escriban esta despedida. Diseñamos un afiche tipográfico donde el titular es un collage de reseñas reales de Google. Mediante el uso de mayúsculas resaltadas, las opiniones forman una frase oculta que define a la esencia del lugar: “Lugarazo con alma que le dio vida a la esquina. Es el Lugar”. Para cerrar realizamos un ejercicio de copywriting que transforma la nostalgia del cierre en el puente perfecto hacia el próximo capítulo.",
@@ -127,7 +135,9 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id: 10,
-    title: "QUILMES BOTELLÓN 0.0",
+    title: "QUILMES",
+    subtitle: "BOTELLÓN 0.0",
+    finaltitle: ".",
     year: 2026,
     category: "Diseño / Acción / Creatividad",
     description: "La consigna fue diseñar una activación y un nuevo producto para Quilmes en el marco de los premios Martín Fierro. Para salir del clásico patrocinio de marca y generar un impacto real en la cultura popular, creamos el “Botellón Quilmes 0.0”, un premio especial entregado a la categoría de Mejor Labor de Conducción. La idea nació de reinterpretar el festejo con champagne de la Fórmula 1, pero cruzándolo con un insight bien argentino: un juego de palabras entre la conducción televisiva y la conducción al volante. De este doble sentido nació el trofeo ideal: una cerveza sin alcohol para el mejor “conductor”. Así, a través del humor popular, logramos instalar el producto y promover el consumo responsable en el evento más visto del país.",
@@ -140,7 +150,9 @@ export const PORTFOLIO_WORKS = [
   },  
   {
     id: 11,
-    title: "CUMPLEAÑOS LEO MESSI",
+    title: "CUMPLEAÑOS",
+    subtitle: "LEO MESSI",
+    finaltitle: ".",
     year: 2026,
     category: "Redacción / Creatividad",
     description: "Un 24 de junio de 1987 nacía en Rosario, Argentina, un chico llamado Lionel Andrés Messi. Con el tiempo, el mundo lo conocería por sus goles, sus récord y sus hazañas. Por hacer posible lo imposible. Por obligarnos una y otra vez a preguntarnos cómo hizo eso. Pero quizás lo más extraordinario no sean los títulos ni las estadísticas. Quizás sea la forma en la que logró convertirse en parte de nuestras vidas. Porque cada uno tiene una historia o anecdota sobre Leo. Un gol gritado con amigos. Un abrazo con un desconocido. Una lagríma de tristeza. Una de felicidad. Y aunque nuestras anécdotas sean distintas, hay algo que nos une a todos: el sentimiento de alentar, emocionarnos y creer hasta el final cada vez que él agarra la pelota. Pensando en todo eso, se me ocurrió este Real Time, donde una frase representa lo que muchos sentimos.",
@@ -167,7 +179,9 @@ export const PORTFOLIO_WORKS = [
 
   {
     id: 13,
-    title: "MESSI RECORD",
+    title: "RECORD",
+    subtitle: "LEO MESSI",
+    finaltitle: ".",
     year: 2026,
     category: "Redacción / Creatividad",
     description: "Tras marcar su gol número 18 en los Mundiales con la Selección Argentina de Futbol, Lio armó lio una vez más. Rompió un nuevo récord y se convirtió en el máximo goleador de la historia de los Mundiales. Por eso decidí armar un Real Time, homenajeandolo a mi manera, con mis vivencias, mis emociones y mis recuerdos. Aunque sé que muchas de esas historias no son solo mías, sino también de muchas personas que crecimos viéndolo jugar. Porque cada uno tendrá su propia anécdota, pero todos compartimos los mismos gritos, los mismos abrazos y las mismas alegrías.",
@@ -180,7 +194,9 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id: 14,
-    title: "FRANCO COLAPINTO ROAD SHOW",
+    title: "FRANCO COLAPINTO",
+    subtitle: "ROAD SHOW",
+    finaltitle: ".",
     year: 2026,
     category: "Diseño / Creatividad",
     description: "El desafío fue desarrollar una campaña de vía pública para Heineken sobre la Av. del Libertador, en el marco del road show de Franco Colapinto en Buenos Aires. El objetivo era claro: instalar el mensaje de consumo responsable en un contexto de pura adrenalina y velocidad. Apostamos por un diseño conceptual, logrando una pieza donde el icónico número “43” revela la silueta de la botella en la morfología del 4. El impacto visual se potenció con un titular breve que juega con el doble sentido de la icónica estrella de la marca: “Una estrella en el auto. Una estrella en la lata”. Un proyecto donde el branding y el contexto jugaron en equipo para lograr un impacto inmediato.",
@@ -193,7 +209,9 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id: 15,
-    title: "BAYER ALIVIO CLÁSICO",
+    title: "BAYER",
+    subtitle: "ALIVIO CLÁSICO",
+    finaltitle: ".",
     year: 2026,
     category: "Diseño / Creatividad",
     description: "La propuesta parte de una situación tan habitual como poco atendida: después de noventa minutos alentando sin parar, miles de hinchas salen del estadio con la garganta resentida. A partir de ese insight, la campaña transforma a Actron en un aliado inesperado del ritual futbolero mediante un puesto ubicado a la salida del BayArena, donde se entregan analgésicos para aliviar el malestar. La pieza combina un titular simple y memorable, “Alivio Clásico para tu Garganta”, con una puesta en escena que integra el branding de la marca al contexto del Bayer Leverkusen, demostrando cómo un momento cotidiano de los fanáticos puede convertirse en una oportunidad de comunicación relevante, útil y con alto impacto.",

@@ -10,17 +10,21 @@ export default function About() {
   return (
     <SiteLayout className="about-page">
       {/* Content */}
-      <section className="container py-20 md:py-32">
+      <section className="container py-20 md:py-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
           {/* Texto a la izquierda */}
           <div className="md:col-span-3">
             <h1 className="text-5xl md:text-6xl font-bold mb-12 leading-tight">
-              LAS CABEZAS DETRÁS.
+              <span className="titlework">LAS CABEZAS</span>
+              <br />
+              <span className="primero"> DETRÁS</span>
+              <span className="segundo">.</span>
             </h1>
 
             <div className="space-y-8 text-lg leading-relaxed">
               <p>Somos Tomi Palasi y Fran Rodriguez. Dos cabezas, una dupla creativa. Compartimos esta carpeta para mostrar las ideas que nos gusta pensar y hacer.</p>
-              <h2 className="duo-person-title">Tomi Palasi</h2>
+              
+              <h2 className="duo-person-title-tomi">Tomi Palasi</h2>
 
               <p>
                 Esquelense de nacimiento. La vida me fue llevando por diferentes
