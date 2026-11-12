@@ -15,11 +15,12 @@ export default function About() {
           {/* Texto a la izquierda */}
           <div className="md:col-span-3">
             <h1 className="text-5xl md:text-6xl font-bold mb-12 leading-tight">
-              LA CABEZA DETRÁS.
+              LAS CABEZAS DETRÁS.
             </h1>
 
             <div className="space-y-8 text-lg leading-relaxed">
-              <p>Soy Tomás Julián Palasi</p>
+              <p>Somos Tomi Palasi y Fran Rodriguez. Dos cabezas, una dupla creativa. Compartimos esta carpeta para mostrar las ideas que nos gusta pensar y hacer.</p>
+              <h2 className="duo-person-title">Tomi Palasi</h2>
 
               <p>
                 Esquelense de nacimiento. La vida me fue llevando por diferentes
@@ -57,6 +58,9 @@ export default function About() {
                 </Link>
                 .
               </p>
+              <h2 className="duo-person-title">Fran Rodriguez</h2>
+              <p>La otra cabeza de la dupla. Hincha de Boca y compañero de Tomi en esta carpeta de ideas.</p>
+              <Link href="/contact">Hablemos de la próxima idea.</Link>
             </div>
           </div>
 

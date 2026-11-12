@@ -11,9 +11,9 @@ export default function Home() {
         <h1 id="hero-title">
           IDEAS QUE
           <br />
-          SALEN DE MI
+          SALEN DE
           <br />
-          <span>CABEZA.</span>
+          <span>DOS CABEZAS.</span>
         </h1>
         <div className="hero-art">
           <img
@@ -24,15 +24,18 @@ export default function Home() {
             fetchPriority="high"
           />
         </div>
+        <div className="hero-art hero-art-fran">
+          <img src={`${import.meta.env.BASE_URL}images/fran-busto.webp`} alt="Busto de Fran sostenido por una mano azul" width="1024" height="1536" fetchPriority="high" />
+        </div>
         <div className="hero-intro">
           <p>
-            Soy Tomi Palasi.
+            Somos Tomi y Fran.
             <br />
-            Le doy una vuelta a las cosas.
+            Le damos una vuelta a las cosas.
             <br />A veces, unas cuantas.
           </p>
           <Link href="/about" className="text-link">
-            Conocé al de la cabeza
+            Conocé a la dupla
           </Link>
         </div>
         <Link href="/work" className="round-cta">
@@ -42,11 +45,11 @@ export default function Home() {
             TRABAJOS
           </span>
         </Link>
-        <div className="hero-signature">Tomi Palasi</div>
+        <div className="hero-signature">Tomi + Fran</div>
         <div className="hero-bottom">
           <span>
             CON LOS PIES EN LA TIERRA.
-            <br />Y LA CABEZA EN CUALQUIER LADO.
+            <br />Y LAS CABEZAS EN CUALQUIER LADO.
           </span>
           <span>BUENOS AIRES, ARGENTINA</span>
         </div>

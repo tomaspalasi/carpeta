@@ -1179,3 +1179,31 @@ body {
   .home-page .hero-signature { bottom: 148px; font-size: 19px; }
   .home-page .round-cta { width: 64px; height: 64px; }
 }
+
+/* Shared identity: Huracán + Boca. */
+:root { --paper: #fff; --blue: #123a91; --yellow: #ffcd38; }
+.brand { letter-spacing: -3px; }
+.site-header nav a[aria-current] { color: var(--blue); }
+.site-header nav a:after { background: var(--yellow); height: 3px; }
+.hero { background: radial-gradient(ellipse at center, #f0f1f3, #fff 76%); }
+.home-page .hero-art-fran { left: 11%; width: 37%; }
+.home-page .hero h1 { z-index: 4; font-size: min(7vw, 12cqh); width: 100%; }
+.home-page .hero h1 span { -webkit-text-stroke-color: var(--blue); }
+.round-cta { background: var(--blue); color: var(--yellow); box-shadow: 5px 7px 0 var(--yellow); }
+.contour-band { background: linear-gradient(90deg,var(--red) 0 34%,var(--yellow) 34% 66%,var(--blue) 66%); }
+.work-end { background: var(--blue); }
+.work-filters button[aria-pressed="true"] { background: var(--blue); border-color: var(--blue); }
+.footer-name { font-size: clamp(19px,2.3vw,32px); }
+.duo-contacts { display: grid; grid-template-columns: 1fr 1fr; gap: 45px; position: relative; z-index: 1; }
+.contact-links { min-width: 0; }
+.contact-links a { font-size: clamp(13px,1.5vw,21px); overflow-wrap: anywhere; }
+.contact-links h2,.duo-person-title { font: 700 32px var(--display); color: var(--blue); }
+.contact-links:first-child h2 { color: var(--red); }
+.contact-globo { opacity: .12; }
+@media(max-width:767px) {
+ .home-page .hero-art-fran { left: -3%; width: 50%; top: -12%; height: 66%; }
+ .home-page .hero h1 { font-size: min(12vw,9cqh); }
+ .home-page .footer-name { font-size: 18px; }
+ .duo-contacts { grid-template-columns: 1fr; gap: 35px; }
+ .home-page .hero-signature { font-size: 19px; }
+}

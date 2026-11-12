@@ -7,7 +7,7 @@ export function Globo({ className = "" }: { className?: string }) {
   return (
     <svg
       className={className}
-      viewBox="0 0 48 64"
+      viewBox="-5 -12 58 76"
       fill="none"
       aria-hidden="true"
     >
@@ -21,6 +21,11 @@ export function Globo({ className = "" }: { className?: string }) {
         stroke="currentColor"
         strokeWidth="2"
       />
+      <g stroke="#123a91" strokeWidth="1.4">
+        <path d="M10 7 L13 -5 Q24 -12 35 -5 L38 7Z" fill="#123a91" />
+        <path d="M12 0 Q24 -4 36 0 L37 5 Q24 2 11 5Z" fill="#ffcd38" stroke="none" />
+        <path d="M10 6 Q24 10 38 6 L44 12 Q24 18 4 12Z" fill="#123a91" />
+      </g>
     </svg>
   );
 }
@@ -59,7 +64,7 @@ export function SiteHeader() {
     ["/", "Inicio"],
     ["/work", "Trabajos"],
     ["/ideas", "Baúl de ideas"],
-    ["/about", "Sobre mí"],
+    ["/about", "Nosotros"],
     ["/contact", "Contacto"],
   ];
   return (
@@ -67,8 +72,8 @@ export function SiteHeader() {
       <a href="#main" className="skip-link">
         Saltar al contenido
       </a>
-      <Link href="/" className="brand" aria-label="Tomás Palasi — inicio">
-        TP<span className="brand-dot">®</span>
+      <Link href="/" className="brand" aria-label="Tomi y Fran — inicio">
+        T×F<span className="brand-dot">®</span>
       </Link>
       <button
         ref={toggleRef}
@@ -105,11 +110,11 @@ export function SiteFooter() {
   return (
     <footer className="site-footer">
       <Link href="/" className="footer-name">
-        TOMÁS JULIÁN PALASI<span>®</span>
+        TOMI PALASI + FRAN RODRIGUEZ<span>®</span>
       </Link>
       <div>
-        <span>Una cabeza. Muchas ideas.</span>
-        <span>© {new Date().getFullYear()} · Tomás Julián Palasi</span>
+        <span>Dos cabezas. Muchas ideas.</span>
+        <span>© {new Date().getFullYear()} · Tomi Palasi y Fran Rodriguez</span>
       </div>
       <Globo className="hero-globo" />
     </footer>
