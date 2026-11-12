@@ -44,7 +44,7 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id:4,
-    title: "Como en casa, estés donde estés",
+    title: "COMO EN CASA, ESTÉS DONDE ESTÉS",
     year: 2026,
     category: "Acción / Creatividad",
     description: "Como en casa, estés donde estés es un film desarrollado para Airbnb que, a través del humor, busca transmitir la comodidad y familiaridad de sentirse en casa, incluso cuando estamos de viaje. La propuesta parte de una situación cotidiana con la que todos podemos identificarnos: ir al baño y sentir que no hay lugar más cómodo que el de nuestra propia casa. A partir de esta observación, el film juega con el contraste entre estar en un lugar desconocido y disfrutar de la confianza y privacidad del hogar. De manera simple y humorística, buscamos destacar uno de los principales atributos de Airbnb: la posibilidad de sentirte como en casa, estés donde estés.",
@@ -85,7 +85,7 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id: 7,
-    title: "Día del Padre",
+    title: "DÍA DEL PADRE",
     year: 2026,
     category: "Redacción / Manifiesto / Creatividad",
     description: "La propuesta fue realizar un manifiesto para el día del padre, sliendo de la típica comunicación, donde los regalos son siempre los protagonistas. El video recorre un living lleno de obsequios clásicos, como ropa, haciendo creer que la historia gira alrededor de ellos. Pero en el final, una fotografía cambia por completo el sentido de la pieza y demuestra que el mejor regalo no es algo que se compra, sino un recuerdo compartido. Bajo el concepto “Volvé a vivir los momentos que más importan”, se busca mostrar que el verdadero valor de Nikon está en capturar esos instantes que, con el paso del tiempo, se transforman en recuerdos para volver a vivir una y otra vez.",
@@ -99,7 +99,7 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id: 8,
-    title: "Vereda Adentro",
+    title: "VEREDA ADENTRO",
     year: 2026,
     category: "Redacción / Manifiesto",
     description: "El objetivo era comunicar el cierre por mudanza de un pequeño, pero icónico, wine bar de Núñez hacia un espacio más grande en Coghlan. Para evitar caer en el típico cartel genérico de “NOS MUDAMOS” o un simple agradecimiento plano, la idea fue dejar que los clientes escriban esta despedida. Diseñamos un afiche tipográfico donde el titular es un collage de reseñas reales de Google. Mediante el uso de mayúsculas resaltadas, las opiniones forman una frase oculta que define a la esencia del lugar: “Lugarazo con alma que le dio vida a la esquina. Es el Lugar”. Para cerrar realizamos un ejercicio de copywriting que transforma la nostalgia del cierre en el puente perfecto hacia el próximo capítulo.",
@@ -113,7 +113,7 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id: 9,
-    title: "Jornadan't",
+    title: "JORNADAN'T",
     year: 2026,
     category: "Diseño / Creatividad",
     description: "La idea consitió en desarrollar una campaña para la cerveza Patagonia, inspirada en esa emoción orientada a quienes trabajan de toda la semana: esa sensación única del día previo a un feriado. Partiendo de ese momento de alivio, entusiasmo y desconexión anticipada, resignificamos el concepto del “pre-feriado” y creamos un nuevo término: “Jornadan't”. Una palabra que define, con humor, ese día en el que el cuerpo sigue trabajando, pero la cabeza ya empezó el descanso. Mediante un tono cercano y cómplice, buscamos ese pequeño ritual de respiro en la rutina cotidiana.",
@@ -127,7 +127,7 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id: 10,
-    title: "Quilmes Botellón 0.0",
+    title: "QUILMES BOTELLÓN 0.0",
     year: 2026,
     category: "Diseño / Acción / Creatividad",
     description: "La consigna fue diseñar una activación y un nuevo producto para Quilmes en el marco de los premios Martín Fierro. Para salir del clásico patrocinio de marca y generar un impacto real en la cultura popular, creamos el “Botellón Quilmes 0.0”, un premio especial entregado a la categoría de Mejor Labor de Conducción. La idea nació de reinterpretar el festejo con champagne de la Fórmula 1, pero cruzándolo con un insight bien argentino: un juego de palabras entre la conducción televisiva y la conducción al volante. De este doble sentido nació el trofeo ideal: una cerveza sin alcohol para el mejor “conductor”. Así, a través del humor popular, logramos instalar el producto y promover el consumo responsable en el evento más visto del país.",
@@ -140,7 +140,7 @@ export const PORTFOLIO_WORKS = [
   },  
   {
     id: 11,
-    title: "Real Time - Cumpleaños Leo Messi",
+    title: "CUMPLEAÑOS LEO MESSI",
     year: 2026,
     category: "Redacción / Creatividad",
     description: "Un 24 de junio de 1987 nacía en Rosario, Argentina, un chico llamado Lionel Andrés Messi. Con el tiempo, el mundo lo conocería por sus goles, sus récord y sus hazañas. Por hacer posible lo imposible. Por obligarnos una y otra vez a preguntarnos cómo hizo eso. Pero quizás lo más extraordinario no sean los títulos ni las estadísticas. Quizás sea la forma en la que logró convertirse en parte de nuestras vidas. Porque cada uno tiene una historia o anecdota sobre Leo. Un gol gritado con amigos. Un abrazo con un desconocido. Una lagríma de tristeza. Una de felicidad. Y aunque nuestras anécdotas sean distintas, hay algo que nos une a todos: el sentimiento de alentar, emocionarnos y creer hasta el final cada vez que él agarra la pelota. Pensando en todo eso, se me ocurrió este Real Time, donde una frase representa lo que muchos sentimos.",
@@ -153,7 +153,7 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id: 12,
-    title: "Amarokit",
+    title: "AMAROKIT",
     year: 2026,
     category: "Diseño / Acción / Creatividad",
     description: "Bajo el concepto de “Amaroki” (esa especie urbana que conduce una camioneta enorme y considera la vereda una extensión natural del estacionamiento) desarrollamos la primera rampa modular plegable para vehículos comunes. Ahora cualquier conductor puede satisfacer la necesidad estética de estacionar sobre la vereda sin la inversión que implica comprar una pickup de gran porte. En pocas palabras: podés ser un Amaroki sin tener una Amarok. No creamos una necesidad. No cambiamos hábitos. No educamos conductores. Simplemente identificamos un comportamiento cultural profundamente arraigado y encontramos la manera de monetizarlo.",
@@ -167,7 +167,7 @@ export const PORTFOLIO_WORKS = [
 
   {
     id: 13,
-    title: "Real Time - Messi Record",
+    title: "MESSI RECORD",
     year: 2026,
     category: "Redacción / Creatividad",
     description: "Tras marcar su gol número 18 en los Mundiales con la Selección Argentina de Futbol, Lio armó lio una vez más. Rompió un nuevo récord y se convirtió en el máximo goleador de la historia de los Mundiales. Por eso decidí armar un Real Time, homenajeandolo a mi manera, con mis vivencias, mis emociones y mis recuerdos. Aunque sé que muchas de esas historias no son solo mías, sino también de muchas personas que crecimos viéndolo jugar. Porque cada uno tendrá su propia anécdota, pero todos compartimos los mismos gritos, los mismos abrazos y las mismas alegrías.",
@@ -180,7 +180,7 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id: 14,
-    title: "Franco Colapinto Road Show",
+    title: "FRANCO COLAPINTO ROAD SHOW",
     year: 2026,
     category: "Diseño / Creatividad",
     description: "El desafío fue desarrollar una campaña de vía pública para Heineken sobre la Av. del Libertador, en el marco del road show de Franco Colapinto en Buenos Aires. El objetivo era claro: instalar el mensaje de consumo responsable en un contexto de pura adrenalina y velocidad. Apostamos por un diseño conceptual, logrando una pieza donde el icónico número “43” revela la silueta de la botella en la morfología del 4. El impacto visual se potenció con un titular breve que juega con el doble sentido de la icónica estrella de la marca: “Una estrella en el auto. Una estrella en la lata”. Un proyecto donde el branding y el contexto jugaron en equipo para lograr un impacto inmediato.",
@@ -193,7 +193,7 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id: 15,
-    title: "Bayer Alivio Clásico",
+    title: "BAYER ALIVIO CLÁSICO",
     year: 2026,
     category: "Diseño / Creatividad",
     description: "La propuesta parte de una situación tan habitual como poco atendida: después de noventa minutos alentando sin parar, miles de hinchas salen del estadio con la garganta resentida. A partir de ese insight, la campaña transforma a Actron en un aliado inesperado del ritual futbolero mediante un puesto ubicado a la salida del BayArena, donde se entregan analgésicos para aliviar el malestar. La pieza combina un titular simple y memorable, “Alivio Clásico para tu Garganta”, con una puesta en escena que integra el branding de la marca al contexto del Bayer Leverkusen, demostrando cómo un momento cotidiano de los fanáticos puede convertirse en una oportunidad de comunicación relevante, útil y con alto impacto.",
