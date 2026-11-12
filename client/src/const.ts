@@ -30,6 +30,19 @@ export const PORTFOLIO_WORKS = [
     slug: "recapacitar",
   }, {
     id: 3,
+    title: "HALLOWEEN",
+    year: 2026,
+    category: "Film / Creatividad",
+    description: "Desarrollamos un film con motivo de Halloween, utilizando la marca Monster Energy como punto de partida. La propuesta consiste en un cortometraje que combina elementos del terror con situaciones humorísticas, jugando con el suspenso, la sorpresa y lo inesperado. Buscamos generar tensión y romperla con humor, creando una experiencia entretenida que conecta la identidad de Monster con el espíritu de Halloween.",
+    subDescription: "Grupo: Juan Ignacio Cersosimo - Daniel Pedraza - Francisco Rodriguez - Tomás Julián Palasi",
+    image: "https://i.imgur.com/P5wkEmh.jpeg",
+    board: null,
+    board2: null,
+    youtube: null,
+    link: "/work/halloween",
+    slug: "halloween",
+  },{
+    id: 4,
     title: "MODÜLAR",
     year: 2026,
     category: "Diseño / Acción / Creatividad",
@@ -43,7 +56,7 @@ export const PORTFOLIO_WORKS = [
     slug: "modular",
   }, 
   {
-    id: 4,
+    id: 5,
     title: "P.V.N.I.",
     year: 2026,
     category: "Diseño / Creatividad",
@@ -57,7 +70,7 @@ export const PORTFOLIO_WORKS = [
     slug: "pvni",
   },
   {
-    id: 5,
+    id: 6,
     title: "Día del Padre",
     year: 2026,
     category: "Redacción / Manifiesto / Creatividad",
@@ -71,7 +84,7 @@ export const PORTFOLIO_WORKS = [
     slug: "día-del-padre",
   },
   {
-    id: 6,
+    id: 7,
     title: "Vereda Adentro",
     year: 2026,
     category: "Redacción / Manifiesto",
@@ -85,7 +98,7 @@ export const PORTFOLIO_WORKS = [
     slug: "vereda-adentro",
   },
   {
-    id: 7,
+    id: 8,
     title: "Jornadan't",
     year: 2026,
     category: "Diseño / Creatividad",
@@ -99,7 +112,7 @@ export const PORTFOLIO_WORKS = [
     slug: "jornadant-patagonia",
   },
   {
-    id: 8,
+    id: 9,
     title: "Quilmes Botellón 0.0",
     year: 2026,
     category: "Diseño / Acción / Creatividad",
@@ -112,7 +125,7 @@ export const PORTFOLIO_WORKS = [
     slug: "quilmes-botellon-0-0",
   },  
   {
-    id: 9,
+    id: 10,
     title: "Real Time - Cumpleaños Leo Messi",
     year: 2026,
     category: "Redacción / Creatividad",
@@ -125,7 +138,7 @@ export const PORTFOLIO_WORKS = [
     slug: "messi-cumpleaños",
   },
   {
-    id: 10,
+    id: 11,
     title: "Amarokit",
     year: 2026,
     category: "Diseño / Acción / Creatividad",
@@ -139,7 +152,7 @@ export const PORTFOLIO_WORKS = [
   },
 
   {
-    id: 11,
+    id: 12,
     title: "Real Time - Messi Record",
     year: 2026,
     category: "Redacción / Creatividad",
@@ -152,7 +165,7 @@ export const PORTFOLIO_WORKS = [
     slug: "messi-record-mundial",
   },
   {
-    id: 12,
+    id: 13,
     title: "Franco Colapinto Road Show",
     year: 2026,
     category: "Diseño / Creatividad",
@@ -165,7 +178,7 @@ export const PORTFOLIO_WORKS = [
     slug: "franco-colapinto-road-show",
   },
   {
-    id: 13,
+    id: 14,
     title: "Bayer Alivio Clásico",
     year: 2026,
     category: "Diseño / Creatividad",
