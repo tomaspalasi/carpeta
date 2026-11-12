@@ -45,7 +45,6 @@ export default function Home() {
             TRABAJOS
           </span>
         </Link>
-        <div className="hero-signature">Tomi + Fran</div>
         <div className="hero-bottom">
           <span>
             CON LOS PIES EN LA TIERRA.
