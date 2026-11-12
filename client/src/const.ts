@@ -1,7 +1,37 @@
 // Portfolio data structure
 export const PORTFOLIO_WORKS = [
-    {
+        {
     id: 1,
+    title: "EN ALGÚN LUGAR DE IBEROAMÉRICA",
+    year: 2026,
+    category: "Diseño / Acción / Creatividad",
+    description: "MODÜLAR es un sistema organizador de prendas desarrollado para resolver uno de los problemas más frecuentes en el orden del placard: el efecto dominó que se produce al retirar una prenda y desacomodar todas las demás. El proyecto propone una solución basada en un sistema modular de láminas de acetato rígido y flexible, donde cada prenda ocupa un espacio independiente, permitiendo extraerla sin alterar el resto de la ropa. El diseño se enfocó en mejorar la experiencia de uso mediante una estructura simple, funcional y adaptable a distintos volúmenes de prendas. Gracias a las propiedades del acetato, el organizador combina estabilidad y flexibilidad, facilitando el acceso a la ropa y reduciendo el tiempo dedicado a mantener el orden del placard.",
+    subDescription: "Dupla: Francisco Rodriguez - Tomás Julián Palasi",
+    image: "https://i.imgur.com/YheYogG.jpeg",
+    board: "https://i.imgur.com/YzAVVwM.jpeg",
+    board2: "https://i.imgur.com/fUNdGV5.png",
+    board3: "https://i.imgur.com/LJJZVAr.jpeg",
+    board4: "https://i.imgur.com/pyfFF9e.jpeg",
+    youtube: "https://youtu.be/7UnsXOe6r2k",
+    link: "/work/modular",
+    slug: "modular",
+  },     {
+    id: 2,
+    title: "RECAPACITAR",
+    year: 2026,
+    category: "Diseño / Acción / Creatividad",
+    description: "MODÜLAR es un sistema organizador de prendas desarrollado para resolver uno de los problemas más frecuentes en el orden del placard: el efecto dominó que se produce al retirar una prenda y desacomodar todas las demás. El proyecto propone una solución basada en un sistema modular de láminas de acetato rígido y flexible, donde cada prenda ocupa un espacio independiente, permitiendo extraerla sin alterar el resto de la ropa. El diseño se enfocó en mejorar la experiencia de uso mediante una estructura simple, funcional y adaptable a distintos volúmenes de prendas. Gracias a las propiedades del acetato, el organizador combina estabilidad y flexibilidad, facilitando el acceso a la ropa y reduciendo el tiempo dedicado a mantener el orden del placard.",
+    subDescription: "Dupla: Francisco Rodriguez - Tomás Julián Palasi",
+    image: "https://i.imgur.com/YDwXP3R.png",
+    board: "https://i.imgur.com/5aUEp7Y.jpeg",
+    board2: "https://i.imgur.com/fUNdGV5.png",
+    board3: "https://i.imgur.com/LJJZVAr.jpeg",
+    board4: "https://i.imgur.com/pyfFF9e.jpeg",
+    youtube: "https://youtu.be/7UnsXOe6r2k",
+    link: "/work/modular",
+    slug: "modular",
+  }, {
+    id: 3,
     title: "MODÜLAR",
     year: 2026,
     category: "Diseño / Acción / Creatividad",
@@ -15,7 +45,7 @@ export const PORTFOLIO_WORKS = [
     slug: "modular",
   }, 
   {
-    id: 2,
+    id: 4,
     title: "P.V.N.I.",
     year: 2026,
     category: "Diseño / Creatividad",
@@ -29,7 +59,7 @@ export const PORTFOLIO_WORKS = [
     slug: "pvni",
   },
   {
-    id: 3,
+    id: 5,
     title: "Día del Padre",
     year: 2026,
     category: "Redacción / Manifiesto / Creatividad",
@@ -43,7 +73,7 @@ export const PORTFOLIO_WORKS = [
     slug: "día-del-padre",
   },
   {
-    id: 4,
+    id: 6,
     title: "Vereda Adentro",
     year: 2026,
     category: "Redacción / Manifiesto",
@@ -57,7 +87,7 @@ export const PORTFOLIO_WORKS = [
     slug: "vereda-adentro",
   },
   {
-    id: 5,
+    id: 7,
     title: "Jornadan't",
     year: 2026,
     category: "Diseño / Creatividad",
@@ -71,7 +101,7 @@ export const PORTFOLIO_WORKS = [
     slug: "jornadant-patagonia",
   },
   {
-    id: 6,
+    id: 8,
     title: "Quilmes Botellón 0.0",
     year: 2026,
     category: "Diseño / Acción / Creatividad",
@@ -84,7 +114,7 @@ export const PORTFOLIO_WORKS = [
     slug: "quilmes-botellon-0-0",
   },  
   {
-    id: 7,
+    id: 9,
     title: "Real Time - Cumpleaños Leo Messi",
     year: 2026,
     category: "Redacción / Creatividad",
@@ -97,7 +127,7 @@ export const PORTFOLIO_WORKS = [
     slug: "messi-cumpleaños",
   },
   {
-    id: 8,
+    id: 10,
     title: "Amarokit",
     year: 2026,
     category: "Diseño / Acción / Creatividad",
@@ -111,7 +141,7 @@ export const PORTFOLIO_WORKS = [
   },
 
   {
-    id: 9,
+    id: 11,
     title: "Real Time - Messi Record",
     year: 2026,
     category: "Redacción / Creatividad",
@@ -124,7 +154,7 @@ export const PORTFOLIO_WORKS = [
     slug: "messi-record-mundial",
   },
   {
-    id: 10,
+    id: 12,
     title: "Franco Colapinto Road Show",
     year: 2026,
     category: "Diseño / Creatividad",
@@ -137,7 +167,7 @@ export const PORTFOLIO_WORKS = [
     slug: "franco-colapinto-road-show",
   },
   {
-    id: 11,
+    id: 13,
     title: "Bayer Alivio Clásico",
     year: 2026,
     category: "Diseño / Creatividad",
