@@ -70,6 +70,14 @@ body {
   letter-spacing: -5px;
   color: var(--red);
 }
+.brand-x {
+  color: var(--yellow);
+}
+
+.brand-f {
+  color: var(--blue);
+}
+
 .brand-dot {
   font-size: 15px;
   letter-spacing: 0;

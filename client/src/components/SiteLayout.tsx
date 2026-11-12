@@ -72,8 +72,7 @@ export function SiteHeader() {
       <a href="#main" className="skip-link">
         Saltar al contenido
       </a>
-      <Link href="/" className="brand" aria-label="Tomi y Fran — inicio">
-        T×F<span className="brand-dot">®</span>
+      <Link href="/" className="brand" aria-label="Tomi y Fran — inicio">T<span className="brand-x">×</span><span  className="brand-f">F</span>
       </Link>
       <button
         ref={toggleRef}
