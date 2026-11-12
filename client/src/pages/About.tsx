@@ -49,14 +49,7 @@ export default function About() {
                 Actualmente estudio en Brother Buenos Aires, el lugar donde
                 encontré el espacio para potenciar todo esto. Creo en las buenas
                 ideas, en el trabajo en dupla y en cranear proyectos copados que
-                valgan la pena. Podés ver un poco de todo eso{" "}
-                <Link
-                  href="/work"
-                  className="text-sm font-medium hover:opacity-70 transition-opacity"
-                >
-                  acá
-                </Link>
-                .
+                valgan la pena.
               </p>
               <h2 className="duo-person-title">Fran Rodriguez</h2>
               <p>La otra cabeza de la dupla. Hincha de Boca y compañero de Tomi en esta carpeta de ideas.</p>
