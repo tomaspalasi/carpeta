@@ -41,8 +41,22 @@ export const PORTFOLIO_WORKS = [
     youtube: null,
     link: "/work/halloween",
     slug: "halloween",
-  },{
-    id: 4,
+  },
+  {
+    id:4,
+    title: "Como en casa, estés donde estés",
+    year: 2026,
+    category: "Acción / Creatividad",
+    description: "Como en casa, estés donde estés es un film desarrollado para Airbnb que, a través del humor, busca transmitir la comodidad y familiaridad de sentirse en casa, incluso cuando estamos de viaje. La propuesta parte de una situación cotidiana con la que todos podemos identificarnos: ir al baño y sentir que no hay lugar más cómodo que el de nuestra propia casa. A partir de esta observación, el film juega con el contraste entre estar en un lugar desconocido y disfrutar de la confianza y privacidad del hogar. De manera simple y humorística, buscamos destacar uno de los principales atributos de Airbnb: la posibilidad de sentirte como en casa, estés donde estés.",
+    subDescription: "Grupo: Juan Ignacio Cersosimo - Daniel Pedraza - Francisco Rodriguez - Tomás Julián Palasi",
+    image: "https://i.imgur.com/Ml1rtKD.png",
+    board: null,
+    youtube: "https://youtu.be/DiNkxuDQHPI",
+    link: "/work/airbnb",
+    slug: "airbnb",
+  },
+   {
+    id: 5,
     title: "MODÜLAR",
     year: 2026,
     category: "Diseño / Acción / Creatividad",
@@ -56,7 +70,7 @@ export const PORTFOLIO_WORKS = [
     slug: "modular",
   }, 
   {
-    id: 5,
+    id: 6,
     title: "P.V.N.I.",
     year: 2026,
     category: "Diseño / Creatividad",
@@ -70,7 +84,7 @@ export const PORTFOLIO_WORKS = [
     slug: "pvni",
   },
   {
-    id: 6,
+    id: 7,
     title: "Día del Padre",
     year: 2026,
     category: "Redacción / Manifiesto / Creatividad",
@@ -84,7 +98,7 @@ export const PORTFOLIO_WORKS = [
     slug: "día-del-padre",
   },
   {
-    id: 7,
+    id: 8,
     title: "Vereda Adentro",
     year: 2026,
     category: "Redacción / Manifiesto",
@@ -98,7 +112,7 @@ export const PORTFOLIO_WORKS = [
     slug: "vereda-adentro",
   },
   {
-    id: 8,
+    id: 9,
     title: "Jornadan't",
     year: 2026,
     category: "Diseño / Creatividad",
@@ -112,7 +126,7 @@ export const PORTFOLIO_WORKS = [
     slug: "jornadant-patagonia",
   },
   {
-    id: 9,
+    id: 10,
     title: "Quilmes Botellón 0.0",
     year: 2026,
     category: "Diseño / Acción / Creatividad",
@@ -125,7 +139,7 @@ export const PORTFOLIO_WORKS = [
     slug: "quilmes-botellon-0-0",
   },  
   {
-    id: 10,
+    id: 11,
     title: "Real Time - Cumpleaños Leo Messi",
     year: 2026,
     category: "Redacción / Creatividad",
@@ -138,7 +152,7 @@ export const PORTFOLIO_WORKS = [
     slug: "messi-cumpleaños",
   },
   {
-    id: 11,
+    id: 12,
     title: "Amarokit",
     year: 2026,
     category: "Diseño / Acción / Creatividad",
@@ -152,7 +166,7 @@ export const PORTFOLIO_WORKS = [
   },
 
   {
-    id: 12,
+    id: 13,
     title: "Real Time - Messi Record",
     year: 2026,
     category: "Redacción / Creatividad",
@@ -165,7 +179,7 @@ export const PORTFOLIO_WORKS = [
     slug: "messi-record-mundial",
   },
   {
-    id: 13,
+    id: 14,
     title: "Franco Colapinto Road Show",
     year: 2026,
     category: "Diseño / Creatividad",
@@ -178,7 +192,7 @@ export const PORTFOLIO_WORKS = [
     slug: "franco-colapinto-road-show",
   },
   {
-    id: 14,
+    id: 15,
     title: "Bayer Alivio Clásico",
     year: 2026,
     category: "Diseño / Creatividad",
