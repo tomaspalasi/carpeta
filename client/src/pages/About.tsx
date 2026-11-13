@@ -30,28 +30,30 @@ export default function About() {
 
             <div className="space-y-8 text-lg leading-relaxed">
               <p>Somos Tomi Palasi y Fran Rodriguez. Dos cabezas, una dupla creativa. Compartimos esta carpeta para mostrar las ideas que nos gusta pensar y hacer.</p>
-              
+
               <h2 className="duo-person-title">Fran Rodriguez</h2>
 
-              <p>La otra cabeza de la dupla. Hincha de Boca y compañero de Tomi en esta carpeta de ideas.</p>
-
+              <p>Un entrerriano que disfruta viajar y conocer el mundo, aunque por ahora vivo en Capital. Hincha de Boca.</p>
+              <p>Me gusta el deporte, caminar, el arte y todo lo que mantenga a la cabeza y el cuerpo en movimiento. También las cámaras y la música: me encanta hacer videoclips, documentar mi vida y ponerle música de fondo. Una vez intenté hacer música y es re difícil, así que eso se lo dejo a los que saben.</p>
+              <p>Nunca me gustó mucho el cine, pero estudié cine… o mejor dicho: “Producción y Realización Audiovisual”. Trabajé en televisión, radio, medios y redes. También organizó una fiesta muy divertida y supe ser un vendedor bastante exitoso en Facebook Marketplace.</p>
+              <p>Por suerte, en 2026 encontré el mundo de la publicidad. Hoy estoy en Brother, donde conocí a Tomi y a un montón de creativos talentosos. Es un lugar hermoso para impulsar la creatividad y las buenas ideas (algunas no tanto), y me pone muy contento lo que pudimos hacer juntos y lo que van a encontrar en esta carpeta</p>  
               {/* Cuadrícula de fotos a la derecha */}
-                  <div className="md:col-span-3">
-                    <div className="about-photos">
-                      {photos2.map((photo, index) => (
-                        <div
-                          key={index}
-                          className="aspect-square overflow-hidden bg-gray-100"
-                        >
-                          <img
-                            src={photo}
-                            alt={`Francisco Rodriguez — foto ${index + 1}`}
-                            className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                          />
-                        </div>
-                      ))}
+              <div className="md:col-span-3">
+                <div className="about-photos">
+                  {photos2.map((photo, index) => (
+                    <div
+                      key={index}
+                      className="aspect-square overflow-hidden bg-gray-100"
+                    >
+                      <img
+                        src={photo}
+                        alt={`Francisco Rodriguez — foto ${index + 1}`}
+                        className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                      />
                     </div>
-                  </div>
+                  ))}
+                </div>
+              </div>
 
               <h2 className="duo-person-title-tomi">Tomi Palasi</h2>
 
@@ -79,29 +81,29 @@ export default function About() {
               </p>
 
               <p>
-                Actualmente estudio en Brother Buenos Aires, el lugar donde
-                encontré el espacio para potenciar todo esto. Creo en las buenas
+                Actualmente estudio en Brother Buenos Aires, el lugar donde lo
+                encontré al Checha (Fran) y al espacio para potenciar todo esto. Creo en las buenas
                 ideas, en el trabajo en dupla y en cranear proyectos copados que
                 valgan la pena.
               </p>
 
               {/* Cuadrícula de fotos a la derecha */}
               <div className="md:col-span-3">
-                          <div className="about-photos">
-                            {photos.map((photo, index) => (
-                              <div
-                                key={index}
-                                className="aspect-square overflow-hidden bg-gray-100"
-                              >
-                                <img
-                                  src={photo}
-                                  alt={`Tomás Palasi — foto ${index + 1}`}
-                                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                                />
-                              </div>
-                            ))}
-                          </div>
-                        </div>
+                <div className="about-photos">
+                  {photos.map((photo, index) => (
+                    <div
+                      key={index}
+                      className="aspect-square overflow-hidden bg-gray-100"
+                    >
+                      <img
+                        src={photo}
+                        alt={`Tomás Palasi — foto ${index + 1}`}
+                        className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
 
               <Link href="/contact">Hablemos de la próxima idea.</Link>
             </div>
