@@ -1306,4 +1306,22 @@ body {
     height: 70%;
     left: 10%;
 }
+
+.hero-eyebrow span:first-child {
+  position: fixed;
+  text-align: right;
+  left: 80%;
+  max-width: 50px;
+}
+
+.hero-eyebrow span:last-child {
+  position: fixed;
+  text-align: right;
+  left: 80%;
+  top: 25%;
+}
+
+.home-page .hero h1 {
+  top: 35%;
+}
 }
