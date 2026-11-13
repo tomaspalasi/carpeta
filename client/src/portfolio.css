@@ -719,6 +719,8 @@ body {
     width: 170px;
     opacity: 0.4;
   }
+
+  .home-page .hero-art-fran { left: 20%; width: 7%; }
 }
 @media (max-width: 600px) {
   .site-header {
@@ -992,6 +994,7 @@ body {
   .header-note {
     display: none;
   }
+
 }
 @media (min-width: 601px) and (max-width: 800px) {
   .site-header nav {
@@ -1269,4 +1272,11 @@ body {
  .home-page .footer-name { font-size: 18px; }
  .duo-contacts { grid-template-columns: 1fr; gap: 35px; }
  .home-page .hero-signature { font-size: 19px; }
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  .home-page .hero-art {
+    scale: 0.85;
+    transform-origin: top center;
+  }
 }
