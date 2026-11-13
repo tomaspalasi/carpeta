@@ -1267,7 +1267,7 @@ body {
 .contact-links:first-child h2 { color: var(--red); }
 .contact-globo { opacity: .12; }
 @media(max-width:767px) {
- .home-page .hero-art-fran { left: -3%; width: 50%; top: -12%; height: 66%; }
+ .home-page .hero-art-fran {  width: 50%; top: -12%; height: 66%; }
  .home-page .hero h1 { font-size: min(12vw,9cqh); }
  .home-page .footer-name { font-size: 18px; }
  .duo-contacts { grid-template-columns: 1fr; gap: 35px; }
@@ -1276,7 +1276,20 @@ body {
 
 @media (min-width: 768px) and (max-width: 1440px) {
   .home-page .hero-art {
-    scale: 0.70;
+    scale: 0.80;
     transform-origin: top center;
   }
+
+  .home-page .hero .uno {
+    margin-left: -6%;
+    position: fixed;
+    top: 41.5%;
+  }
+
+  .home-page .hero .dos {
+    margin-left: 8%;
+    position: fixed;
+    top: 41.5%;
+  }
+  .home-page .hero-art-fran { left: 15%;}
 }

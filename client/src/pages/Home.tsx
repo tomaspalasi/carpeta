@@ -13,7 +13,7 @@ export default function Home() {
           <br />
           SALEN DE
           <br />
-          <span>DOS CABEZAS</span>
+          <span>DOS</span><span className="uno"> CABEZAS</span>
           <span className="dos">.</span>
         </h1>
         <div className="hero-art">
