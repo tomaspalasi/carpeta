@@ -7,6 +7,13 @@ export default function About() {
     "https://i.imgur.com/YfxuKp5.gif",
   ];
 
+  const photos2 = [
+    "https://i.imgur.com/0YRk3Zg.jpeg",
+    "https://i.imgur.com/0GO8z2A.jpeg",
+    "https://i.imgur.com/OHASuvk.jpeg",
+  ];
+
+
   return (
     <SiteLayout className="about-page">
       {/* Content */}
@@ -24,6 +31,28 @@ export default function About() {
             <div className="space-y-8 text-lg leading-relaxed">
               <p>Somos Tomi Palasi y Fran Rodriguez. Dos cabezas, una dupla creativa. Compartimos esta carpeta para mostrar las ideas que nos gusta pensar y hacer.</p>
               
+              <h2 className="duo-person-title">Fran Rodriguez</h2>
+
+              <p>La otra cabeza de la dupla. Hincha de Boca y compañero de Tomi en esta carpeta de ideas.</p>
+
+              {/* Cuadrícula de fotos a la derecha */}
+                  <div className="md:col-span-3">
+                    <div className="about-photos">
+                      {photos2.map((photo, index) => (
+                        <div
+                          key={index}
+                          className="aspect-square overflow-hidden bg-gray-100"
+                        >
+                          <img
+                            src={photo}
+                            alt={`Francisco Rodriguez — foto ${index + 1}`}
+                            className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
               <h2 className="duo-person-title-tomi">Tomi Palasi</h2>
 
               <p>
@@ -55,27 +84,26 @@ export default function About() {
                 ideas, en el trabajo en dupla y en cranear proyectos copados que
                 valgan la pena.
               </p>
-              <h2 className="duo-person-title">Fran Rodriguez</h2>
-              <p>La otra cabeza de la dupla. Hincha de Boca y compañero de Tomi en esta carpeta de ideas.</p>
-              <Link href="/contact">Hablemos de la próxima idea.</Link>
-            </div>
-          </div>
 
-          {/* Cuadrícula de fotos a la derecha */}
-          <div className="md:col-span-3">
-            <div className="about-photos">
-              {photos.map((photo, index) => (
-                <div
-                  key={index}
-                  className="aspect-square overflow-hidden bg-gray-100"
-                >
-                  <img
-                    src={photo}
-                    alt={`Tomás Palasi — foto ${index + 1}`}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-              ))}
+              {/* Cuadrícula de fotos a la derecha */}
+              <div className="md:col-span-3">
+                          <div className="about-photos">
+                            {photos.map((photo, index) => (
+                              <div
+                                key={index}
+                                className="aspect-square overflow-hidden bg-gray-100"
+                              >
+                                <img
+                                  src={photo}
+                                  alt={`Tomás Palasi — foto ${index + 1}`}
+                                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                                />
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+
+              <Link href="/contact">Hablemos de la próxima idea.</Link>
             </div>
           </div>
         </div>
