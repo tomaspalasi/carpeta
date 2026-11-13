@@ -55,6 +55,7 @@ export default function Home() {
         </div>
       </section>
       <div className="contour-band" aria-hidden="true" />
+      <Globo className="contact-globo" />
     </SiteLayout>
   );
 }

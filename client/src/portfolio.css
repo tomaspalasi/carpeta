@@ -1324,4 +1324,9 @@ body {
 .home-page .hero h1 {
   top: 35%;
 }
+
+.contact-globo{
+  position: fixed;
+  top: 50%;
+}
 }
