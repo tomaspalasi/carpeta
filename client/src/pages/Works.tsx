@@ -69,7 +69,7 @@ function Works({ section = "work" }: { section?: WorkSection }) {
               {failedImages.has(work.id) ? (
                 <div className="poster-fallback">
                   <span>{String(work.id).padStart(2, "0")}</span>
-                  <strong>{work.title}</strong>
+                  <strong>{work.fulltitle}</strong>
                   <small>Vista previa no disponible · Ver proyecto</small>
                 </div>
               ) : (
@@ -84,7 +84,7 @@ function Works({ section = "work" }: { section?: WorkSection }) {
               )}
             </div>
             <div className="poster-caption">
-              <h2>{work.title}</h2>
+              <h2>{work.fulltitle}</h2>
               <span>{work.category}</span>
             </div>
           </Link>

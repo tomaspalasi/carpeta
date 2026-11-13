@@ -153,12 +153,12 @@ export default function WorkDetail() {
                   <div className="relative overflow-hidden rounded-lg aspect-[3/2] bg-gray-100">
                     <img
                       src={prevWork.image}
-                      alt={prevWork.title}
+                      alt={prevWork.fulltitle}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                   </div>
                   <h3 className="text-xl font-bold group-hover:opacity-70 transition-opacity">
-                    {prevWork.title}
+                    {prevWork.fulltitle}
                   </h3>
                 </div>
               </div>
@@ -172,12 +172,12 @@ export default function WorkDetail() {
                   <div className="relative overflow-hidden rounded-lg aspect-[3/2] bg-gray-100">
                     <img
                       src={nextWork.image}
-                      alt={nextWork.title}
+                      alt={nextWork.fulltitle}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                   </div>
                   <h3 className="text-xl font-bold group-hover:opacity-70 transition-opacity">
-                    {nextWork.title}
+                    {nextWork.fulltitle}
                   </h3>
                 </div>
               </div>

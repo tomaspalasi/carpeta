@@ -2,6 +2,7 @@
 export const PORTFOLIO_WORKS = [
         {
     id: 1,
+    fulltitle: "EN ALGÚN LUGAR DE IBEROAMÉRICA",
     title: "EN ALGÚN LUGAR DE",
     subtitle: " IBEROAMÉRICA",
     finaltitle: ".",
@@ -19,6 +20,7 @@ export const PORTFOLIO_WORKS = [
     slug: "enAlgunLugarDeIberoamerica",
   },     {
     id: 2,
+    fulltitle: "RECAPACITAR",
     title: "RECAPACITAR",
     year: 2026,
     category: "Acción / Creatividad",
@@ -32,6 +34,7 @@ export const PORTFOLIO_WORKS = [
     slug: "recapacitar",
   }, {
     id: 3,
+    fulltitle: "HALLOWEEN",
     title: "HALLOWEEN",
     year: 2026,
     category: "Film / Creatividad",
@@ -46,6 +49,7 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id:4,
+    fulltitle: "COMO EN CASA, ESTÉS DONDE ESTÉS",
     title: "COMO EN CASA,",
     subtitle: "ESTÉS DONDE ESTÉS",
     finaltitle: ".",
@@ -61,6 +65,7 @@ export const PORTFOLIO_WORKS = [
   },
    {
     id: 5,
+    fulltitle: "MODÜLAR",
     title: "MODÜLAR",
     year: 2026,
     category: "Diseño / Acción / Creatividad",
@@ -75,6 +80,7 @@ export const PORTFOLIO_WORKS = [
   }, 
   {
     id: 6,
+    fulltitle: "P.V.N.I.",
     title: "P.V.N.I.",
     year: 2026,
     category: "Diseño / Creatividad",
@@ -89,6 +95,7 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id: 7,
+    fulltitle: "DÍA DEL PADRE",
     title: "DÍA",
     subtitle: "DEL PADRE",
     finaltitle: ".",
@@ -105,6 +112,7 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id: 8,
+    fulltitle: "VEREDA ADENTRO",
     title: "VEREDA",
     subtitle: "ADENTRO",
     finaltitle: ".",
@@ -121,6 +129,7 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id: 9,
+    fulltitle: "JORNADAN'T",
     title: "JORNADAN'T",
     year: 2026,
     category: "Diseño / Creatividad",
@@ -135,6 +144,7 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id: 10,
+    fulltitle: "QUILMES BOTELLÓN 0.0",
     title: "QUILMES",
     subtitle: "BOTELLÓN 0.0",
     finaltitle: ".",
@@ -150,6 +160,7 @@ export const PORTFOLIO_WORKS = [
   },  
   {
     id: 11,
+    fulltitle: "CUMPLEAÑOS LEO MESSI",
     title: "CUMPLEAÑOS",
     subtitle: "LEO MESSI",
     finaltitle: ".",
@@ -165,6 +176,7 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id: 12,
+    fulltitle: "AMAROKIT",
     title: "AMAROKIT",
     year: 2026,
     category: "Diseño / Acción / Creatividad",
@@ -179,6 +191,7 @@ export const PORTFOLIO_WORKS = [
 
   {
     id: 13,
+    fulltitle: "RECORD LEO MESSI",
     title: "RECORD",
     subtitle: "LEO MESSI",
     finaltitle: ".",
@@ -194,6 +207,7 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id: 14,
+    fulltitle: "FRANCO COLAPINTO ROAD SHOW",
     title: "FRANCO COLAPINTO",
     subtitle: "ROAD SHOW",
     finaltitle: ".",
@@ -209,6 +223,7 @@ export const PORTFOLIO_WORKS = [
   },
   {
     id: 15,
+    fulltitle: "BAYER ALIVIO CLÁSICO",
     title: "BAYER",
     subtitle: "ALIVIO CLÁSICO",
     finaltitle: ".",
