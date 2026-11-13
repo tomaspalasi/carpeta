@@ -1296,13 +1296,13 @@ body {
 
 @media (max-width: 767px) {
   .home-page .herototi {
-    top: -24%;
-    width: 50%;
+    top: -19%;
+    width: 45%;
     left: 40%;
 }
   .home-page .hero-art-fran {
-    width: 45%;
-    top: -30%;
+    width: 40%;
+    top: -25%;
     height: 70%;
     left: 10%;
 }
