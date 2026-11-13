@@ -16,7 +16,7 @@ export default function Home() {
           <span>DOS</span><span className="uno"> CABEZAS</span>
           <span className="dos">.</span>
         </h1>
-        <div className="hero-art">
+        <div className="hero-art herototi">
           <img
             src={`${import.meta.env.BASE_URL}images/busto.png`}
             alt="Retrato escultórico de Tomás con gorro, antiparras y la lengua afuera, sostenido por una mano roja"

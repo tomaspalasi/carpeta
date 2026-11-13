@@ -1293,3 +1293,17 @@ body {
   }
   .home-page .hero-art-fran { left: 15%;}
 }
+
+@media (max-width: 767px) {
+  .home-page .herototi {
+    top: -24%;
+    width: 50%;
+    left: 40%;
+}
+  .home-page .hero-art-fran {
+    width: 45%;
+    top: -30%;
+    height: 70%;
+    left: 10%;
+}
+}
