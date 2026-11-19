@@ -39,7 +39,7 @@ export const PORTFOLIO_WORKS = [
     year: 2026,
     category: "Film / Creatividad",
     description: "The Unexpected Expert es un film desarrollado para IKEA que, a través del humor y lo absurdo, cuenta la historia de Jack, un monstruo que dedicó toda su vida a esconderse debajo de las camas. Tras ser trasladado a Japón, descubre que gran parte de la población duerme sobre futones en el piso, dejándolo sin trabajo y poniendo en crisis todo lo que sabía hacer. Después de años estudiando cada tipo de cama, diseño, rincón y tornillo, Jack se encuentra en el peor escenario posible. Sin embargo, lo que parecía el final de su carrera termina convirtiéndose en una nueva oportunidad: trabajar en IKEA. A partir de esta historia, buscamos conectar el universo de los monstruos con el de la marca, demostrando que incluso el conocimiento más inesperado puede convertirte en un verdadero experto en camas.",
-    image: "https://i.imgur.com/y2QrfCq.png",
+    image: "https://i.imgur.com/ibpRv2v.jpeg",
     board: "https://i.imgur.com/fZek7bY.jpeg",
     board2: "https://i.imgur.com/Z8fWKd5.jpeg",
     board3: "https://i.imgur.com/gG3gBng.jpeg",
