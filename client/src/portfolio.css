@@ -323,6 +323,7 @@ body {
   margin: 0 auto 10px;
 }
 .site-footer {
+  position: relative;
   padding: 45px 4.5%;
   display: flex;
   align-items: center;
@@ -345,10 +346,18 @@ body {
   color: var(--blue);
 }
 .site-footer div {
+  flex: 1;
+  align-items: center;
+  text-align: center;
   display: flex;
   flex-direction: column;
   gap: 8px;
   font-size: 9px;
+}
+.site-footer > .hero-globo {
+  position: absolute;
+  right: 4.5%;
+  margin: 0;
 }
 .site-footer > a:last-child {
   font-size: 12px;

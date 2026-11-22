@@ -1,4 +1,15 @@
 /* This composition belongs to the new Home; Home-old remains a backup. */
+.home-centered .site-header { border-bottom: 0; }
+/* Let the arms cross the header without blocking its navigation. */
+@media (min-width: 768px) {
+  .home-centered.home-page .hero { overflow: visible; }
+  .home-centered.home-page .home-person { margin-top: -100px; }
+  .home-centered .home-person img { pointer-events: none; }
+  .home-centered .site-header :is(.brand, nav) {
+    position: relative;
+    z-index: 5;
+  }
+}
 .home-centered.home-page .hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr) minmax(0, 1fr);
