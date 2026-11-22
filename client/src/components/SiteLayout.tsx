@@ -97,11 +97,6 @@ export function SiteHeader() {
           </Link>
         ))}
       </nav>
-      <span className="header-note">
-        IDEAS CON PERSONALIDAD.
-        <br />
-        BUENOS AIRES, ARG.
-      </span>
     </header>
   );
 }
