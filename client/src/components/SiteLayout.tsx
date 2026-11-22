@@ -108,9 +108,6 @@ export function SiteHeader() {
 export function SiteFooter() {
   return (
     <footer className="site-footer">
-      <Link href="/" className="footer-name">
-        TOMI PALASI<span className="signomas"> + </span><span className="franname">FRAN RODRIGUEZ</span>
-      </Link>
       <div>
         <span>Dos cabezas. Muchas ideas.</span>
         <span>© {new Date().getFullYear()} · Tomi Palasi y Fran Rodriguez</span>
