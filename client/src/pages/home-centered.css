@@ -84,16 +84,29 @@
     padding: 0 5% 18px;
     overflow: visible;
   }
-  .home-centered .site-header { z-index: 5; background: var(--paper); }
+  .home-centered .site-header {
+    z-index: 5;
+    background: var(--paper);
+    border-bottom: 1px solid #c9c8c5;
+  }
   .home-centered .home-person {
+    --portrait-ratio: 1.5;
+    --caption-offset: clamp(12px, 6vw, 30px);
     grid-row: 1;
+    grid-template-rows: min(calc((45vw - 8px) * var(--portrait-ratio)), calc(100% - 32px)) auto;
+    align-content: start;
     margin: 0;
     gap: 6px;
+  }
+  .home-centered .home-person-tomi {
+    --portrait-ratio: 1.408;
+    --caption-offset: clamp(18px, 9vw, 46px);
   }
   .home-centered .home-person img { pointer-events: none; }
   .home-centered .home-person figcaption {
     margin: 0;
     font-size: clamp(16px, 4.5vw, 26px);
+    transform: translateY(calc(-1 * var(--caption-offset)));
   }
   .home-centered .home-message {
     grid-column: 1 / -1;
